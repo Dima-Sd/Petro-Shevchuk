@@ -1,0 +1,4718 @@
+.desktop {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.main-content {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-0) var(--padding-0) 1053px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.footer,
+.rectangle {
+  height: 370px;
+  position: relative;
+  background-color: var(--color-darkslategray-300);
+}
+.footer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-3) var(--padding-0) 82px;
+  box-sizing: border-box;
+  isolation: isolate;
+  gap: 82px;
+  max-width: 100%;
+}
+.rectangle {
+  align-self: stretch;
+  display: none;
+  z-index: 0;
+  flex-shrink: 0;
+}
+.contact-nav,
+.top-bar {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.top-bar {
+  flex-direction: column;
+  gap: 34px;
+  flex-shrink: 0;
+}
+.contact-nav {
+  padding: var(--padding-0) var(--padding-40);
+  box-sizing: border-box;
+}
+.contact-info {
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-20);
+  max-width: 100%;
+}
+.contact-items,
+.nav-links {
+  display: flex;
+  align-items: flex-start;
+}
+.contact-items {
+  height: 145px;
+  width: 295px;
+  flex-direction: column;
+}
+.nav-links {
+  cursor: pointer;
+  border: var(--border-1);
+  padding: var(--padding-17) var(--padding-32) var(--padding-17) 33px;
+  background-color: transparent;
+  align-self: stretch;
+  z-index: 1;
+}
+.nav-links:hover {
+  background-color: var(--color-peru-200);
+  border: 2px solid var(--color-peru-100);
+  box-sizing: border-box;
+}
+.rectangle2 {
+  height: var(--height-73);
+  width: 295px;
+  position: relative;
+  border: var(--border-1);
+  box-sizing: border-box;
+  display: none;
+  flex-shrink: 0;
+}
+.circle-icon,
+.tel-48-511 {
+  position: relative;
+  z-index: 1;
+}
+.tel-48-511 {
+  flex: 1;
+  font-size: var(--fs-22);
+  letter-spacing: var(--ls-0_2);
+  line-height: var(--lh-33);
+  font-family: var(--font-josefin-sans);
+  color: var(--color-white);
+  text-align: center;
+  flex-shrink: 0;
+}
+.circle-icon {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.contact-items2,
+.frame {
+  display: flex;
+  align-items: flex-start;
+}
+.contact-items2 {
+  height: 145px;
+  flex-direction: column;
+}
+.frame {
+  cursor: pointer;
+  border: var(--border-1);
+  padding: var(--padding-17) 83px var(--padding-17) 84px;
+  background-color: var(--color-burlywood);
+  align-self: stretch;
+  justify-content: center;
+  z-index: 1;
+}
+.frame13:hover,
+.frame2:hover,
+.frame:hover,
+.rectangle3 {
+  background-color: var(--color-peru-100);
+  border: 2px solid var(--color-peru-100);
+  box-sizing: border-box;
+}
+.rectangle3 {
+  height: var(--height-73);
+  width: 295px;
+  position: relative;
+  background-color: var(--color-burlywood);
+  border: var(--border-1);
+  display: none;
+  flex-shrink: 0;
+}
+.rectangle4,
+.rezerwacja {
+  position: relative;
+  z-index: 1;
+}
+.rezerwacja {
+  flex: 1;
+  font-size: var(--fs-22);
+  letter-spacing: 0.44px;
+  line-height: var(--lh-33);
+  font-family: var(--font-josefin-sans);
+  color: var(--color-darkslategray-400);
+  text-align: center;
+  display: inline-block;
+  min-width: 124px;
+  flex-shrink: 0;
+}
+.rectangle4 {
+  align-self: stretch;
+  height: var(--height-1);
+  background-color: var(--color-dimgray-100);
+}
+.frame-icon {
+  width: 100%;
+  height: 82px;
+  position: absolute;
+  margin: 0 !important;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.border-element {
+  align-self: stretch;
+  height: var(--height-1);
+  position: relative;
+  background-color: var(--color-dimgray-100);
+  flex-shrink: 0;
+}
+.about,
+.content-wrapper {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.content-wrapper {
+  align-self: stretch;
+  padding: var(--padding-0) var(--padding-0) 126px;
+}
+.about {
+  flex: 1;
+  background-color: var(--color-snow);
+  flex-direction: column;
+  padding: 42px var(--padding-0) 31px;
+  position: relative;
+  isolation: isolate;
+  gap: 42px;
+}
+.about-content,
+.rectangle5 {
+  align-self: stretch;
+  flex-shrink: 0;
+}
+.rectangle5 {
+  height: 728px;
+  position: relative;
+  background-color: var(--color-snow);
+  display: none;
+  z-index: 0;
+}
+.about-content {
+  margin-top: -1095px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.about-details,
+.rectangle6 {
+  align-self: stretch;
+  background-color: var(--color-darkslategray-300);
+  max-width: 100%;
+}
+.about-details {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  padding: var(--padding-10) var(--padding-10) var(--padding-0)
+    var(--padding-40);
+  box-sizing: border-box;
+  gap: 0;
+  row-gap: var(--gap-20);
+}
+.rectangle6 {
+  width: var(--width-1440);
+  position: relative;
+  display: none;
+  flex-shrink: 0;
+}
+.detail-container {
+  flex: 1;
+  padding: var(--padding-0) var(--padding-0) 153px;
+  box-sizing: border-box;
+  min-width: 439px;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: 100px;
+  color: var(--color-white);
+  font-family: var(--font-cormorant-infant);
+}
+.detail-container,
+.welcome-content,
+.welcome-content-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.welcome-content-parent {
+  width: 636px;
+  padding: var(--padding-0) var(--padding-20) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  gap: var(--gap-28);
+}
+.welcome-content {
+  align-self: stretch;
+  gap: 41px;
+}
+.ludzie-jedzenie-i,
+.witamy-w-restauracji {
+  position: relative;
+  letter-spacing: var(--ls-0_2);
+  z-index: 1;
+}
+.witamy-w-restauracji {
+  margin: 0;
+  width: 470px;
+  font-size: inherit;
+  line-height: 110px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.ludzie-jedzenie-i {
+  font-size: var(--fs-20);
+  line-height: var(--lh-30);
+  font-family: var(--font-josefin-sans);
+}
+.frame2,
+.rectangle7 {
+  height: var(--height-73);
+  width: 230px;
+  border: var(--border-1);
+  box-sizing: border-box;
+}
+.frame2 {
+  cursor: pointer;
+  padding: var(--padding-17) var(--padding-32);
+  background-color: transparent;
+  display: flex;
+  align-items: flex-start;
+  z-index: 1;
+}
+.frame13:hover,
+.frame2:hover {
+  background-color: var(--color-peru-200);
+}
+.rectangle7 {
+  position: relative;
+  display: none;
+  flex-shrink: 0;
+}
+.rectangle8,
+.wywietl-menu {
+  position: relative;
+  z-index: 1;
+  flex-shrink: 0;
+}
+.wywietl-menu {
+  flex: 1;
+  font-size: var(--fs-22);
+  letter-spacing: var(--ls-0_2);
+  line-height: var(--lh-33);
+  font-family: var(--font-josefin-sans);
+  color: var(--color-burlywood);
+  text-align: center;
+}
+.rectangle8 {
+  height: 769.7px;
+  width: var(--width-30);
+  background-color: var(--color-gray-300);
+}
+.image-showcase {
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  min-width: 445px;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.image-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: calc(100% - 30px);
+}
+.image-and-overlay,
+.image-border {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.image-border {
+  height: var(--height-30);
+  background-color: var(--color-gray-300);
+}
+.image-and-overlay {
+  height: 770px;
+}
+.image-overlay {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  border-radius: 628px 628px 0 0;
+  height: 100%;
+}
+.image-icon {
+  position: absolute;
+  width: 90.84%;
+  top: calc(50% - 355px);
+  right: 4.58%;
+  left: 4.58%;
+  border-radius: 626px 626px 0 0;
+  max-width: 100%;
+  overflow: hidden;
+  height: 740px;
+  object-fit: cover;
+  z-index: 1;
+}
+.rectangle9 {
+  height: 769.7px;
+  width: var(--width-30);
+  position: relative;
+  background-color: var(--color-gray-300);
+  z-index: 1;
+}
+.frame3,
+.rectangle10 {
+  background-color: var(--color-snow);
+  max-width: 100%;
+}
+.frame3 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  padding: 100.3px var(--padding-40) 59.7px;
+  box-sizing: border-box;
+  gap: var(--gap-30);
+  text-align: left;
+  font-size: var(--fs-30);
+  color: var(--color-darkslategray-300);
+  font-family: var(--font-cormorant-infant);
+}
+.rectangle10 {
+  height: 243px;
+  width: var(--width-1440);
+  position: relative;
+  display: none;
+  flex-shrink: 0;
+}
+.location-details,
+.map-images {
+  display: flex;
+  align-items: flex-start;
+}
+.location-details {
+  width: 428px;
+  gap: var(--gap-20);
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.map-images {
+  border-radius: var(--br-100);
+  background-color: var(--color-darkslategray-300);
+  padding: var(--padding-15) var(--padding-15) var(--padding-16)
+    var(--padding-16);
+  z-index: 1;
+}
+.image-icon2,
+.rectangle11 {
+  position: relative;
+  flex-shrink: 0;
+}
+.rectangle11 {
+  height: 83px;
+  width: 83px;
+  border-radius: var(--br-100);
+  background-color: var(--color-darkslategray-300);
+  display: none;
+}
+.image-icon2 {
+  height: 52px;
+  width: 52px;
+  object-fit: cover;
+  z-index: 1;
+}
+.address-details,
+.address-details-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.address-details-wrapper {
+  flex: 1;
+  padding: var(--padding-4) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  min-width: 211px;
+  max-width: 100%;
+}
+.address-details {
+  align-self: stretch;
+  gap: var(--gap-5);
+}
+.znajd-nas {
+  margin: 0;
+  width: 150px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: var(--ls-0_2);
+  line-height: 39px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 1;
+}
+.hours-spacer-parent {
+  width: 429px;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-0) 41px var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  gap: var(--gap-20);
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.hours-spacer-icon {
+  height: 83px;
+  width: 83px;
+  position: relative;
+  z-index: 1;
+}
+.hours-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-4) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  min-width: 185px;
+}
+.godziny-otwarcia,
+.pon-niedz {
+  margin: 0;
+  position: relative;
+  letter-spacing: var(--ls-0_2);
+  font-weight: 400;
+  z-index: 1;
+}
+.godziny-otwarcia {
+  width: 237px;
+  font-size: inherit;
+  line-height: 39px;
+  font-family: inherit;
+  display: inline-block;
+}
+.pon-niedz {
+  align-self: stretch;
+  font-size: var(--fs-20);
+  line-height: var(--lh-30);
+  font-family: var(--font-josefin-sans);
+  color: var(--color-dimgray-200);
+}
+.frame4,
+.location-details2 {
+  display: flex;
+  align-items: flex-start;
+}
+.location-details2 {
+  width: 351px;
+  gap: var(--gap-20);
+  max-width: 100%;
+  flex-shrink: 0;
+  font-size: var(--fs-22);
+  font-family: var(--font-josefin-sans);
+}
+.frame4 {
+  border-radius: var(--br-100);
+  background-color: var(--color-darkslategray-300);
+  padding: 22px;
+  z-index: 1;
+}
+.image-icon3 {
+  height: 39px;
+  width: 39px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+  flex-shrink: 0;
+}
+.location-details-inner,
+.rezerwacja-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.location-details-inner {
+  flex: 1;
+  padding: var(--padding-4) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  min-width: 161px;
+}
+.rezerwacja-parent {
+  align-self: stretch;
+  gap: var(--gap-11);
+}
+.h3,
+.rezerwacja2 {
+  margin: 0;
+  position: relative;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 1;
+}
+.rezerwacja2 {
+  width: 146px;
+  font-size: inherit;
+  letter-spacing: 0.44px;
+  line-height: var(--lh-33);
+  display: inline-block;
+}
+.h3 {
+  align-self: stretch;
+  font-size: var(--fs-20);
+  letter-spacing: var(--ls-0_2);
+  line-height: var(--lh-30);
+  color: var(--color-dimgray-200);
+}
+.hero-content,
+.hero-content-wrapper {
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.hero-content-wrapper {
+  padding: var(--padding-0) var(--padding-40);
+  box-sizing: border-box;
+}
+.hero-content {
+  flex: 1;
+  gap: 45px;
+}
+.image-icon4 {
+  height: 655px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  min-width: 483px;
+  z-index: 1;
+}
+.philosophy-statement,
+.philosophy-statement-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.philosophy-statement-wrapper {
+  width: 559px;
+  padding: 38px var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--fs-40);
+  color: var(--color-darkslategray-300);
+  font-family: var(--font-cormorant-infant);
+}
+.philosophy-statement {
+  align-self: stretch;
+  gap: 38px;
+}
+.gdzie-smak-spotyka,
+.nasza-filozofia-jest {
+  position: relative;
+  letter-spacing: var(--ls-0_2);
+  z-index: 1;
+}
+.gdzie-smak-spotyka {
+  width: 545px;
+  line-height: var(--lh-56);
+  display: inline-block;
+  max-width: 100%;
+}
+.nasza-filozofia-jest {
+  font-size: var(--fs-20);
+  line-height: var(--lh-30);
+  font-family: var(--font-josefin-sans);
+  color: var(--color-dimgray-200);
+}
+.tasteeat {
+  width: 100%;
+  height: 804px;
+  position: absolute;
+  margin: 0 !important;
+  top: -1047px;
+  right: 0;
+  left: 0;
+  z-index: 2;
+  flex-shrink: 0;
+}
+.frame5 {
+  width: 147px;
+  height: 54px;
+  position: relative;
+  display: none;
+}
+.rectangle13 {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: var(--height-27);
+  display: none;
+}
+.rectangle14,
+.rectangle15,
+.rectangle16,
+.rectangle17 {
+  width: 260.1px;
+  height: var(--height-50);
+  position: relative;
+  display: none;
+}
+.rectangle15,
+.rectangle16,
+.rectangle17 {
+  width: 272.1px;
+}
+.rectangle16,
+.rectangle17 {
+  width: 277.1px;
+}
+.rectangle17 {
+  width: 318.1px;
+}
+.menu-wrapper-wrapper {
+  width: 1426px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-0) 26px 2.3px;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--fs-36);
+  color: var(--color-darkslategray-300);
+  font-family: var(--font-josefin-sans);
+}
+.menu-wrapper {
+  height: 323.7px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.menu-header,
+.rectangle19 {
+  position: absolute;
+  left: 0;
+  width: 126px;
+}
+.rectangle19 {
+  top: 0;
+  background-color: var(--color-burlywood);
+  height: var(--height-1);
+  z-index: 1;
+}
+.menu-header {
+  top: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-5);
+}
+.menu {
+  margin: 0;
+  width: 115.2px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: var(--ls-3);
+  line-height: var(--lh-22_5);
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 1;
+}
+.menu-title-separator {
+  align-self: stretch;
+  height: var(--height-1);
+  position: relative;
+  background-color: var(--color-burlywood);
+}
+.menu-content-wrapper {
+  position: absolute;
+  top: 48.3px;
+  left: 0;
+  width: 981px;
+  display: flex;
+  align-items: flex-start;
+  gap: 57.8px;
+  max-width: 100%;
+  font-size: var(--fs-40);
+  font-family: var(--font-cormorant-infant);
+}
+.sprbuj-naszych-specjalnych-da-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 5.7px var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  min-width: 314px;
+  max-width: 100%;
+}
+.sprbuj-naszych-specjalnych {
+  position: relative;
+  letter-spacing: var(--ls-0_2);
+  line-height: var(--lh-56);
+  text-transform: capitalize;
+}
+.przystawkii-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 31.4px;
+  min-width: 440.2px;
+  max-width: 100%;
+  font-size: var(--fs-36);
+}
+.przystawkii {
+  margin: 0;
+  width: 260.1px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: var(--ls-0_2);
+  line-height: 50.4px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+}
+.appetizer-item-wrapper {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-0) var(--padding-0) var(--padding-0) 9px;
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--fs-30);
+}
+.tost-z-mozzarel {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: var(--ls-0_2);
+  line-height: var(--lh-42);
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.frame-parent {
+  position: absolute;
+  top: 161.3px;
+  left: 3px;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  gap: 51.4px;
+  max-width: 100%;
+  font-size: var(--fs-20);
+  color: var(--color-dimgray-200);
+}
+.za-kadym-razem-gdy-bdziesz-wrapper {
+  width: 486px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 17.7px var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.za-kadym-razem {
+  position: relative;
+  letter-spacing: var(--ls-0_2);
+  line-height: var(--lh-30);
+  flex-shrink: 0;
+}
+.menu-item-entry,
+.menu-item-list {
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  max-width: 100%;
+}
+.menu-item-list {
+  min-width: 541px;
+  flex-shrink: 0;
+  row-gap: var(--gap-20);
+}
+.menu-item-entry {
+  flex-direction: column;
+  gap: 47px;
+}
+.toast-item {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-0) var(--padding-1) var(--padding-0) var(--padding-10);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.toast-description {
+  height: var(--height-30);
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.chleb-pesto {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: inherit;
+  letter-spacing: var(--ls-0_2);
+  line-height: var(--lh-30);
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  width: 538.6px;
+}
+.toast-divider {
+  position: absolute;
+  top: 24.6px;
+  left: 529.5px;
+  background-color: var(--color-darkgray);
+  width: 224.1px;
+  height: var(--height-2);
+  z-index: 1;
+}
+.prosciutto-toast-item {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1px;
+  max-width: 100%;
+  font-size: var(--fs-30);
+  color: var(--color-darkslategray-300);
+  font-family: var(--font-cormorant-infant);
+}
+.tost-z-prosciutto {
+  margin: 0;
+  width: 276.8px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: var(--ls-0_2);
+  line-height: var(--lh-42);
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+}
+.prosciutto-description {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+  font-size: var(--fs-20);
+  color: var(--color-dimgray-200);
+  font-family: var(--font-josefin-sans);
+}
+.chleb-sos {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: var(--ls-0_2);
+  line-height: var(--lh-30);
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.ingredients-divider {
+  width: 384.1px;
+  padding: 18.6px var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  max-width: 100%;
+  margin-left: -101.6px;
+  position: relative;
+}
+.ingredients-divider,
+.price-display-container,
+.z-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.price-display-container {
+  justify-content: flex-end;
+  padding: var(--padding-0) var(--padding-0) 11.4px;
+  margin-left: -0.2px;
+  position: relative;
+  font-size: var(--fs-30);
+  color: var(--color-black);
+  font-family: var(--font-cormorant-infant);
+}
+.z-parent {
+  gap: 67px;
+}
+.z {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: var(--ls-0_2);
+  line-height: var(--lh-42);
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 3;
+}
+.rectangle21 {
+  width: 263.1px;
+}
+.rectangle21,
+.rectangle22,
+.rectangle23,
+.rectangle24 {
+  height: var(--height-50);
+  position: relative;
+  display: none;
+}
+.rectangle22 {
+  width: 321.1px;
+  max-width: 100%;
+}
+.rectangle23,
+.rectangle24 {
+  width: 274.1px;
+}
+.rectangle24 {
+  width: 290px;
+}
+.menu-items-continued {
+  width: 1414px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-0) var(--padding-14) 86.3px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.menu-item-wrapper-two {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-5);
+  max-width: 100%;
+}
+.dish-preview-wrapper {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-0) 9px var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.dish-preview {
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  gap: 142.3px;
+  max-width: 100%;
+}
+.dish-image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-0) var(--padding-0) var(--padding-34);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.image-icon5 {
+  width: 398px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+.dish-description-panel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40.5px;
+  min-width: 544px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--fs-30);
+  color: var(--color-darkslategray-300);
+  font-family: var(--font-cormorant-infant);
+}
+.herring-dish-details,
+.herring-name-and-price {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.herring-dish-details {
+  flex-direction: column;
+  max-width: 100%;
+}
+.herring-name-and-price {
+  justify-content: space-between;
+  gap: var(--gap-20);
+}
+.ledzik {
+  margin: 0;
+  width: 305.7px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: var(--ls-0_2);
+  line-height: var(--lh-42);
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.z-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 11.6px var(--padding-0) var(--padding-0);
+  color: var(--color-black);
+}
+.z3 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: var(--ls-0_2);
+  line-height: var(--lh-42);
+  font-weight: 400;
+  font-family: inherit;
+  flex-shrink: 0;
+  z-index: 3;
+}
+.herring-ingredients-panel,
+.menu-item-separator-wrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+  position: relative;
+}
+.herring-ingredients-panel {
+  width: 765.6px;
+  margin-top: -10.6px;
+  font-size: var(--fs-20);
+  color: var(--color-dimgray-200);
+  font-family: var(--font-josefin-sans);
+}
+.menu-item-separator-wrapper {
+  width: 410.1px;
+  flex-direction: column;
+  padding: 18.6px var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  margin-left: -122.9px;
+}
+.menu-item-separator {
+  align-self: stretch;
+  height: var(--height-2);
+  position: relative;
+  background-color: var(--color-darkgray);
+  flex-shrink: 0;
+  z-index: 1;
+}
+.menu-food-list-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 36.3px;
+  max-width: 100%;
+}
+.menu-food-list {
+  flex-direction: column;
+  gap: 54.8px;
+}
+.dish-items-block,
+.menu-food-list,
+.menu-item-pairs {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.dish-items-block {
+  flex-direction: column;
+  gap: var(--gap-11);
+}
+.menu-item-pairs {
+  justify-content: space-between;
+  gap: var(--gap-20);
+}
+.tatar-woowy {
+  margin: 0;
+  width: 439.6px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: var(--ls-0_2);
+  line-height: var(--lh-42);
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.z-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 11.1px var(--padding-0) var(--padding-0);
+  color: var(--color-black);
+}
+.z4 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: var(--ls-0_2);
+  line-height: var(--lh-42);
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 4;
+}
+.dish-detail-set {
+  width: 764.6px;
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+  row-gap: var(--gap-20);
+  margin-top: -11.1px;
+  position: relative;
+  font-size: var(--fs-20);
+  color: var(--color-dimgray-200);
+  font-family: var(--font-josefin-sans);
+}
+.poldwica-woowa {
+  flex: 1;
+  position: relative;
+  letter-spacing: var(--ls-0_2);
+  line-height: var(--lh-30);
+  display: inline-block;
+  min-width: 405px;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 1;
+}
+.item-dividers-wrapper {
+  width: 161px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 19.1px var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  margin-left: -19.3px;
+  position: relative;
+}
+.item-dividers {
+  align-self: stretch;
+  height: var(--height-2);
+  position: relative;
+  background-color: var(--color-darkgray);
+  flex-shrink: 0;
+  z-index: 2;
+}
+.pomidorowa,
+.zupy {
+  margin: 0;
+  position: relative;
+  letter-spacing: var(--ls-0_2);
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+}
+.zupy {
+  width: 151px;
+  font-size: 35px;
+  line-height: 50.4px;
+}
+.pomidorowa {
+  width: 482.1px;
+  font-size: inherit;
+  line-height: var(--lh-42);
+  max-width: 100%;
+}
+.ingredient-display,
+.soup-details-row {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.soup-details-row {
+  align-self: stretch;
+  margin-top: -15px;
+  position: relative;
+  font-size: var(--fs-20);
+  color: var(--color-dimgray-200);
+  font-family: var(--font-josefin-sans);
+}
+.ingredient-display {
+  flex: 1;
+  flex-direction: column;
+  padding: 15.7px var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+}
+.pomidory-przyprawy {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: var(--ls-0_2);
+  line-height: var(--lh-30);
+  font-weight: 400;
+  font-family: inherit;
+}
+.price-with-background {
+  width: 354px;
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+  row-gap: var(--gap-20);
+  margin-left: -117.9px;
+  position: relative;
+  font-size: var(--fs-30);
+  color: var(--color-darkslategray-300);
+  font-family: var(--font-cormorant-infant);
+}
+.background-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 34.7px var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  min-width: 183px;
+}
+.price-background-shape {
+  align-self: stretch;
+  height: var(--height-2);
+  position: relative;
+  background-color: var(--color-darkgray);
+  z-index: 1;
+}
+.z6 {
+  margin: 0;
+  height: 31.8px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: var(--ls-0_2);
+  line-height: 31.8px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  min-width: var(--min-w-73);
+  z-index: 3;
+}
+.menu-action-and-soup,
+.menu-item-list-container {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.menu-item-list-container {
+  width: 1335px;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: var(--padding-0) var(--padding-0) var(--padding-0) var(--padding-20);
+}
+.menu-action-and-soup {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-0) var(--padding-4) var(--padding-0) var(--padding-0);
+  text-align: center;
+  font-size: var(--fs-22);
+  color: var(--color-burlywood);
+  font-family: var(--font-josefin-sans);
+}
+.soup-item-price-container-parent {
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-20);
+  max-width: 100%;
+}
+.soup-item-price-container {
+  width: 1009.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-0) var(--padding-0) 13.7px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.dish-view-button-and-name {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-20);
+  max-width: 100%;
+}
+.frame6,
+.rectangle27 {
+  width: 255px;
+  border: var(--border-1);
+  box-sizing: border-box;
+}
+.frame6 {
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-17) var(--padding-5);
+}
+.rectangle27 {
+  height: var(--height-73);
+  position: relative;
+  display: none;
+  flex-shrink: 0;
+}
+.zobacz-wszystkie-dania {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: var(--ls-0_2);
+  line-height: var(--lh-33);
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 1;
+  flex-shrink: 0;
+}
+.soup-title-container {
+  width: 539.9px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 36.3px var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--fs-30);
+  color: var(--color-darkslategray-300);
+  font-family: var(--font-cormorant-infant);
+}
+.barszcz-biay {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: var(--ls-0_2);
+  line-height: var(--lh-42);
+  font-weight: 400;
+  font-family: inherit;
+}
+.item-price-display {
+  display: flex;
+  align-items: flex-start;
+  text-align: left;
+  font-size: var(--fs-30);
+  color: var(--color-darkslategray-300);
+  font-family: var(--font-cormorant-infant);
+}
+.z7,
+.z8 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: var(--ls-0_2);
+  line-height: var(--lh-42);
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  min-width: var(--min-w-73);
+}
+.z8 {
+  z-index: 1;
+  margin: 0 0 0-73px;
+}
+.menu-description-container,
+.soup-and-ingredient-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.soup-and-ingredient-block {
+  width: 846.3px;
+  gap: 56px;
+  margin-top: -12.7px;
+  position: relative;
+  text-align: left;
+  font-size: var(--fs-20);
+  color: var(--color-darkslategray-300);
+  font-family: var(--font-cormorant-infant);
+}
+.menu-description-container {
+  align-self: stretch;
+  padding: var(--padding-0) var(--padding-8) 4.7px var(--padding-0);
+  box-sizing: border-box;
+  gap: var(--gap-11);
+  color: var(--color-dimgray-200);
+  font-family: var(--font-josefin-sans);
+}
+.kiebasa-biaa-boczek-ziem-parent {
+  width: 764.4px;
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+  row-gap: var(--gap-20);
+}
+.kiebasa-biaa {
+  flex: 1;
+  position: relative;
+  letter-spacing: var(--ls-0_2);
+  line-height: var(--lh-30);
+  display: inline-block;
+  min-width: 359px;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.rectangle-container,
+.soup-dish-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.rectangle-container {
+  width: 236px;
+  padding: 18.7px var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  margin-left: -24.9px;
+  position: relative;
+}
+.soup-dish-block {
+  align-self: stretch;
+  max-width: 100%;
+  font-size: var(--fs-30);
+  color: var(--color-darkslategray-300);
+  font-family: var(--font-cormorant-infant);
+}
+.barszcz-z-fasolk {
+  margin: 0;
+  width: 521.5px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: var(--ls-0_2);
+  line-height: var(--lh-42);
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.frame-div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10.7px var(--padding-0) var(--padding-0);
+}
+.z9 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: var(--ls-0_2);
+  line-height: var(--lh-42);
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  min-width: var(--min-w-73);
+  z-index: 3;
+}
+.ingredient-list-block {
+  width: 765.7px;
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+  row-gap: var(--gap-20);
+  margin-top: -9.7px;
+  position: relative;
+  font-size: var(--fs-20);
+  color: var(--color-dimgray-200);
+  font-family: var(--font-josefin-sans);
+}
+.wieprzowina-warzywa {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: var(--ls-0_2);
+  line-height: var(--lh-30);
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 337px;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.dodatki-parent,
+.rectangle-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.rectangle-frame {
+  width: 273.6px;
+  padding: 18.7px var(--padding-0) var(--padding-0);
+  margin-left: -26.7px;
+  position: relative;
+}
+.dodatki-parent {
+  align-self: stretch;
+  padding: var(--padding-0) 13px var(--padding-0) var(--padding-0);
+  gap: 47.3px;
+  max-width: 100%;
+  font-size: var(--fs-36);
+}
+.dodatki {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: var(--ls-0_2);
+  line-height: 50.4px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.addon-item,
+.item-name-container {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.addon-item {
+  align-self: stretch;
+  font-size: var(--fs-30);
+}
+.item-name-container {
+  width: 347.6px;
+  flex-direction: column;
+  padding: var(--padding-3) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+}
+.addon-price-display,
+.price-tag-wrapper {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.addon-price-display {
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 0;
+  row-gap: var(--gap-20);
+  margin-left: -259.3px;
+  position: relative;
+}
+.price-tag-wrapper {
+  flex-direction: column;
+  padding: 34.7px var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  min-width: 441px;
+}
+.z10 {
+  margin: 0;
+  height: 31.8px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: var(--ls-0_2);
+  line-height: 31.8px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 2;
+}
+.another-addon-item {
+  align-self: stretch;
+  height: 40.4px;
+  position: relative;
+  max-width: 100%;
+  font-size: var(--fs-30);
+}
+.rectangle30 {
+  position: absolute;
+  top: 34.7px;
+  left: 114.3px;
+  background-color: var(--color-darkgray);
+  width: 652px;
+  height: var(--height-2);
+  z-index: 1;
+}
+.pickle-addon-details,
+.pickle-name-container {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.pickle-addon-details {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  justify-content: space-between;
+  gap: var(--gap-20);
+  height: 100%;
+}
+.pickle-name-container {
+  width: 347.6px;
+  flex-direction: column;
+  padding: 6.3px var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+}
+.z11 {
+  margin: 0;
+  height: 32.1px;
+  width: 80px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: var(--ls-0_2);
+  line-height: 32.1px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.coment,
+.reviews-content {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.coment {
+  align-self: stretch;
+  height: 837px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--fs-30);
+  color: var(--color-white);
+  font-family: var(--font-cormorant-infant);
+}
+.reviews-content {
+  flex: 1;
+  background-color: var(--color-darkslategray-300);
+  flex-direction: column;
+  padding: 119px var(--padding-40) 120px;
+  box-sizing: border-box;
+  gap: var(--gap-20);
+}
+.rectangle31,
+.rectangle32 {
+  position: relative;
+  flex-shrink: 0;
+}
+.rectangle31 {
+  width: var(--width-1440);
+  height: 906px;
+  background-color: var(--color-darkslategray-300);
+  display: none;
+  max-width: 100%;
+}
+.rectangle32 {
+  width: 218px;
+  height: var(--height-1);
+  background-color: var(--color-burlywood);
+  z-index: 1;
+}
+.rectangle33,
+.review-items-wrapper {
+  align-self: stretch;
+  position: relative;
+  background-color: var(--color-darkslategray-300);
+  flex-shrink: 0;
+}
+.review-items-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-1) var(--padding-0) var(--padding-0_3);
+  box-sizing: border-box;
+  isolation: isolate;
+  gap: var(--gap-11);
+  max-width: 100%;
+  z-index: 1;
+}
+.rectangle33 {
+  height: 646px;
+  display: none;
+  z-index: 0;
+}
+.review-content-area {
+  width: 218px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-shrink: 0;
+  font-size: var(--fs-36);
+  font-family: var(--font-josefin-sans);
+}
+.reviews-header-block {
+  width: 141px;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-0) var(--padding-0) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  position: relative;
+  isolation: isolate;
+  z-index: 1;
+}
+.header-background {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.recenzje {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: var(--ls-3);
+  line-height: var(--lh-22_5);
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: inherit;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.title-decoration {
+  align-self: stretch;
+  height: var(--height-1);
+  position: relative;
+  background-color: var(--color-burlywood);
+  z-index: 1;
+}
+.nasi-klienci-mwi-parent {
+  width: 796px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-0) var(--padding-0) 38.7px;
+  box-sizing: border-box;
+  gap: var(--gap-8);
+  max-width: 100%;
+  flex-shrink: 0;
+  font-size: var(--fs-40);
+}
+.nasi-klienci-mwi {
+  margin: 0;
+  width: 339px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: var(--ls-0_2);
+  line-height: var(--lh-56);
+  text-transform: capitalize;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.rectangle34,
+.review-items-display {
+  position: relative;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.rectangle34 {
+  width: var(--width-464);
+  height: 144px;
+  display: none;
+  z-index: 3;
+}
+.review-items-display {
+  width: 1301px;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  padding: var(--padding-0) var(--padding-0) 38.7px;
+  box-sizing: border-box;
+  isolation: isolate;
+  gap: 70px;
+  text-align: left;
+  font-size: var(--fs-30);
+  color: var(--color-white);
+  font-family: var(--font-cormorant-infant);
+}
+.review-card-one,
+.review-content-container {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.review-card-one {
+  gap: var(--gap-30);
+  min-width: 727px;
+  flex-shrink: 0;
+}
+.review-content-container {
+  background-color: var(--color-darkslategray-100);
+  flex-direction: column;
+  padding: var(--padding-14) var(--padding-40) var(--padding-15);
+  box-sizing: border-box;
+  gap: 32.3px;
+  min-width: 354px;
+  z-index: 1;
+}
+.rectangle35,
+.rectangle36 {
+  position: relative;
+  display: none;
+  flex-shrink: 0;
+}
+.rectangle35 {
+  width: var(--width-544);
+  height: 342px;
+  background-color: var(--color-darkslategray-100);
+  max-width: 100%;
+}
+.rectangle36 {
+  align-self: stretch;
+  height: 144px;
+}
+.review-header-details,
+.reviewer-info {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.review-header-details {
+  align-self: stretch;
+  flex-direction: column;
+  gap: 16.7px;
+  flex-shrink: 0;
+}
+.reviewer-info {
+  width: 332px;
+  gap: var(--gap-30);
+}
+.avatar-placeholder-icon {
+  height: 113px;
+  width: 113px;
+  position: relative;
+  object-fit: cover;
+  z-index: 2;
+}
+.reviewer-name-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 21px var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  min-width: 123px;
+}
+.review-divider,
+.rusan-krugly {
+  align-self: stretch;
+  position: relative;
+  z-index: 2;
+}
+.rusan-krugly {
+  margin: 0;
+  font-size: inherit;
+  letter-spacing: var(--ls-0_2);
+  line-height: var(--lh-42);
+  font-weight: 400;
+  font-family: inherit;
+}
+.review-divider {
+  height: var(--height-1);
+  background-color: var(--color-slategray);
+}
+.pyszna-kuchnia-doskonaa {
+  width: 454px;
+  position: relative;
+  font-size: var(--fs-24);
+  letter-spacing: var(--ls-0_25);
+  line-height: var(--lh-37_5);
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+  flex-shrink: 0;
+}
+.review-card-two {
+  flex: 1;
+  background-color: var(--color-darkslategray-100);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-0) var(--padding-40) var(--padding-14);
+  box-sizing: border-box;
+  gap: 33px;
+  min-width: 354px;
+  max-width: 100%;
+  z-index: 1;
+}
+.rectangle37,
+.second-review-header {
+  position: relative;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.rectangle37 {
+  width: var(--width-544);
+  height: 341px;
+  background-color: var(--color-darkslategray-100);
+  display: none;
+}
+.second-review-header {
+  align-self: stretch;
+  height: 144px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-15) var(--padding-0) var(--padding-16);
+  box-sizing: border-box;
+  isolation: isolate;
+  gap: 15.7px;
+  z-index: 2;
+}
+.header-decorations {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  flex-shrink: 0;
+}
+.second-reviewer-info {
+  width: 383.4px;
+  display: flex;
+  align-items: flex-start;
+  gap: var(--gap-30);
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.avatar-second-placeholder {
+  height: 113px;
+  width: 113px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.second-reviewer-name-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 4.8px var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  min-width: 156px;
+}
+.petro-shevchuk {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: var(--ls-0_2);
+  line-height: var(--lh-42);
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 1;
+}
+.header-decorations2 {
+  align-self: stretch;
+  height: var(--height-1);
+  position: relative;
+  background-color: var(--color-slategray);
+  z-index: 3;
+  flex-shrink: 0;
+}
+.odwiedziem-t-wspania {
+  width: 453px;
+  position: relative;
+  font-size: var(--fs-25);
+  letter-spacing: var(--ls-0_25);
+  line-height: var(--lh-37_5);
+  display: inline-block;
+  max-width: 100%;
+  z-index: 2;
+  flex-shrink: 0;
+}
+.review-footer-spacing {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  isolation: isolate;
+  flex-shrink: 0;
+}
+.rectangle38 {
+  height: 327px;
+  width: var(--width-544);
+  position: absolute;
+  margin: 0 !important;
+  right: -391px;
+  bottom: -214.3px;
+  background-color: var(--color-darkslategray-100);
+  z-index: 1;
+  flex-shrink: 0;
+}
+.empty-spacer-icon {
+  height: 113px;
+  width: 113px;
+  position: relative;
+  object-fit: cover;
+  z-index: 3;
+  flex-shrink: 0;
+}
+.review-content-divider {
+  height: var(--height-1);
+  width: var(--width-464);
+  position: absolute;
+  margin: 0 !important;
+  top: 144px;
+  right: -351px;
+  background-color: var(--color-slategray);
+  z-index: 3;
+  flex-shrink: 0;
+}
+.martin,
+.synie-z-niesamowitego {
+  margin: 0 !important;
+  position: absolute;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.synie-z-niesamowitego {
+  width: 462px;
+  right: -349px;
+  bottom: 53.7px;
+  font-size: var(--fs-25);
+  letter-spacing: var(--ls-0_25);
+  line-height: var(--lh-37_5);
+  z-index: 2;
+}
+.martin {
+  top: 234px;
+  right: -58px;
+  font-size: inherit;
+  letter-spacing: var(--ls-0_2);
+  line-height: var(--lh-42);
+  font-weight: 400;
+  font-family: inherit;
+  min-width: 87px;
+  z-index: 3;
+}
+.review-author-metadata {
+  width: var(--width-544);
+  height: 281px;
+  right: -906px;
+  bottom: 151px;
+  background-color: var(--color-darkslategray-100);
+}
+.david-lue,
+.newyork,
+.review-author-metadata,
+.review-author-metadata2 {
+  margin: 0 !important;
+  position: absolute;
+  flex-shrink: 0;
+}
+.review-author-metadata2 {
+  width: var(--width-464);
+  height: 103px;
+  top: 214px;
+  right: -866px;
+  z-index: 1;
+}
+.david-lue,
+.newyork {
+  letter-spacing: var(--ls-0_2);
+  font-weight: 400;
+  display: inline-block;
+  z-index: 2;
+}
+.david-lue {
+  top: 213px;
+  right: -557px;
+  font-size: inherit;
+  line-height: var(--lh-42);
+  font-family: inherit;
+  min-width: 125px;
+}
+.newyork {
+  top: 256px;
+  right: -513px;
+  font-size: var(--fs-20);
+  line-height: var(--lh-30);
+  font-family: var(--font-josefin-sans);
+  color: var(--color-burlywood);
+  min-width: 81px;
+}
+.review-author-metadata3 {
+  width: var(--width-30);
+  height: var(--height-30);
+  top: 214px;
+  right: -432px;
+  border-radius: var(--br-100);
+  background-color: var(--color-burlywood);
+  border: 2px solid var(--color-darkslategray-300);
+  box-sizing: border-box;
+  z-index: 3;
+}
+.a-restaurant-with,
+.review-author-metadata3,
+.review-author-metadata4 {
+  position: absolute;
+  margin: 0 !important;
+  flex-shrink: 0;
+}
+.a-restaurant-with {
+  width: 449px;
+  right: -851px;
+  bottom: 146px;
+  font-size: var(--fs-25);
+  letter-spacing: var(--ls-0_25);
+  line-height: var(--lh-37_5);
+  display: inline-block;
+  z-index: 1;
+}
+.review-author-metadata4 {
+  width: var(--width-464);
+  height: var(--height-1);
+  top: 316.7px;
+  right: -866px;
+  background-color: var(--color-slategray);
+  z-index: 2;
+}
+.review-author-metadata5 {
+  width: var(--width-544);
+  height: 244px;
+  right: -1480px;
+  bottom: 188px;
+  background-color: var(--color-darkslategray-100);
+}
+.natasha-d,
+.newyork2,
+.review-author-metadata5,
+.review-author-metadata6 {
+  margin: 0 !important;
+  position: absolute;
+  flex-shrink: 0;
+}
+.review-author-metadata6 {
+  width: var(--width-464);
+  height: 103px;
+  top: 214px;
+  right: -1440px;
+  z-index: 1;
+}
+.natasha-d,
+.newyork2 {
+  letter-spacing: var(--ls-0_2);
+  font-weight: 400;
+  z-index: 2;
+}
+.newyork2 {
+  top: 256px;
+  right: -1087px;
+  font-size: var(--fs-20);
+  line-height: var(--lh-30);
+  font-family: var(--font-josefin-sans);
+  color: var(--color-burlywood);
+  display: inline-block;
+  min-width: 81px;
+}
+.natasha-d {
+  top: 213px;
+  right: -1138px;
+  font-size: inherit;
+  line-height: var(--lh-42);
+  font-family: inherit;
+}
+.review-author-metadata7 {
+  width: var(--width-30);
+  height: var(--height-30);
+  top: 214px;
+  right: -1006px;
+  border-radius: var(--br-100);
+  background-color: var(--color-burlywood);
+  border: 2px solid var(--color-darkslategray-300);
+  box-sizing: border-box;
+  z-index: 3;
+}
+.review-author-metadata7,
+.review-author-metadata8,
+.they-known-for {
+  position: absolute;
+  margin: 0 !important;
+  flex-shrink: 0;
+}
+.they-known-for {
+  width: 454px;
+  right: -1430px;
+  bottom: 183px;
+  font-size: var(--fs-24);
+  letter-spacing: var(--ls-0_25);
+  line-height: var(--lh-37_5);
+  display: inline-block;
+  z-index: 1;
+}
+.review-author-metadata8 {
+  width: var(--width-464);
+  height: var(--height-1);
+  top: 316.7px;
+  right: -1440px;
+  background-color: var(--color-slategray);
+  z-index: 2;
+}
+.frame7 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 10.3px var(--padding-0) 9.7px;
+  gap: 10px;
+  z-index: 1;
+  flex-shrink: 0;
+}
+.rectangle39,
+.rectangle40 {
+  height: var(--height-20);
+  width: var(--width-20);
+  position: relative;
+  box-shadow: var(--shadow-drop);
+  border-radius: var(--br-10);
+  background-color: var(--color-white);
+}
+.rectangle40 {
+  background-color: var(--color-gray-200);
+}
+.image-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: var(--padding-0) 37px 57px var(--padding-1);
+  box-sizing: border-box;
+  gap: 55px;
+  max-width: 100%;
+}
+.image-icon6 {
+  margin-right: -38px;
+  margin-bottom: 42.3px;
+  width: var(--width-1440);
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 103%;
+  z-index: 2;
+  flex-shrink: 0;
+}
+.menu-header2 {
+  width: 1380px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: var(--padding-0) var(--padding-0) var(--padding-0) var(--padding-20);
+  box-sizing: border-box;
+  gap: var(--gap-8);
+  max-width: 100%;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--fs-36);
+  color: var(--color-darkslategray-300);
+  font-family: var(--font-josefin-sans);
+}
+.frame-group,
+.menu-header-inner {
+  display: flex;
+  align-items: flex-start;
+}
+.menu-header-inner {
+  align-self: stretch;
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-20) var(--padding-0) 21px;
+}
+.frame-group {
+  width: 297px;
+  flex-direction: column;
+  gap: 11.7px;
+}
+.menu-label-wrapper-wrapper {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-0) 21px var(--padding-0) var(--padding-20);
+}
+.menu-label-wrapper {
+  width: var(--width-60);
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  isolation: isolate;
+}
+.rectangle41 {
+  height: var(--height-1);
+  width: 134px;
+  position: absolute;
+  margin: 0 !important;
+  right: -38px;
+  bottom: -0.7px;
+  background-color: var(--color-burlywood);
+  flex-shrink: 0;
+}
+.frame8,
+.rectangle42 {
+  height: var(--height-27);
+  width: var(--width-60);
+  position: relative;
+  flex-shrink: 0;
+}
+.frame8 {
+  display: flex;
+  align-items: flex-start;
+  isolation: isolate;
+  z-index: 1;
+}
+.rectangle42 {
+  display: none;
+  z-index: 0;
+}
+.menu2 {
+  margin: 0 !important;
+  width: 155px;
+  position: absolute;
+  top: -0.3px;
+  right: -48px;
+  font-size: inherit;
+  letter-spacing: var(--ls-3);
+  line-height: var(--lh-22_5);
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.pasja-ktr-poczujesz,
+.popularne-dania {
+  position: relative;
+  letter-spacing: var(--ls-0_2);
+}
+.popularne-dania {
+  margin: 0;
+  align-self: stretch;
+  font-size: var(--fs-40);
+  line-height: var(--lh-56);
+  text-transform: capitalize;
+  font-weight: 400;
+  font-family: var(--font-cormorant-infant);
+}
+.pasja-ktr-poczujesz {
+  font-size: var(--fs-20);
+  line-height: var(--lh-30);
+  color: var(--color-dimgray-200);
+}
+.separator-container-parent {
+  width: 1380px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-0) var(--padding-0) 2.4px var(--padding-20);
+  box-sizing: border-box;
+  gap: 25px;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.separator-container {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-20);
+}
+.rectangle43 {
+  height: var(--height-1);
+  width: 134px;
+  position: relative;
+  background-color: var(--color-burlywood);
+}
+.menu-item-grid {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-0) var(--padding-0) var(--padding-40);
+  gap: var(--gap-30);
+}
+.dish-card-collection {
+  padding: var(--padding-0_3) var(--padding-0) 5.3px var(--padding-0);
+  gap: 0.3px;
+  text-align: left;
+  font-size: var(--fs-30);
+  color: var(--color-darkslategray-300);
+  font-family: var(--font-cormorant-infant);
+}
+.dish-card-collection,
+.image-group {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.frame9,
+.image-icon7 {
+  align-self: stretch;
+  position: relative;
+}
+.image-icon7 {
+  flex: 1;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.frame9 {
+  display: flex;
+  align-items: flex-start;
+  padding: 9.7px var(--padding-0) var(--padding-11);
+  gap: 23px;
+  z-index: 1;
+  margin-top: -1px;
+}
+.rectangle44 {
+  height: 63px;
+  width: 318px;
+  position: relative;
+  display: none;
+  flex-shrink: 0;
+}
+.oso-grillowany,
+.z12 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: var(--ls-0_2);
+  line-height: var(--lh-42);
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 1;
+  flex-shrink: 0;
+}
+.oso-grillowany {
+  flex: 1;
+}
+.z12 {
+  display: inline-block;
+  min-width: 72px;
+}
+.rectangle-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 13.7px;
+  font-size: var(--fs-20);
+  color: var(--color-dimgray-200);
+  font-family: var(--font-josefin-sans);
+}
+.rectangle45 {
+  align-self: stretch;
+  height: var(--height-1);
+  position: relative;
+  background-color: var(--color-gainsboro);
+}
+.oso-warzywa {
+  position: relative;
+  letter-spacing: var(--ls-0_2);
+  line-height: var(--lh-30);
+}
+.dish-card-collection2 {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-0_3) var(--padding-0) 43px var(--padding-0);
+  position: relative;
+  isolation: isolate;
+  gap: 34.6px;
+  text-align: left;
+  font-size: var(--fs-30);
+  color: var(--color-darkslategray-300);
+  font-family: var(--font-cormorant-infant);
+}
+.dish-card-collection2,
+.frame10,
+.image-parent2 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.image-parent2 {
+  flex: 1;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.frame10 {
+  justify-content: flex-end;
+  padding: 10.7px var(--padding-1) 12.3px;
+  position: relative;
+  isolation: isolate;
+  z-index: 1;
+  margin-top: -1.3px;
+}
+.rectangle46 {
+  height: 63px;
+  width: 318px;
+  position: relative;
+  display: none;
+  z-index: 0;
+  flex-shrink: 0;
+}
+.kotlet-schabowy-na {
+  width: 257px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -29.7px;
+  left: 0;
+  letter-spacing: var(--ls-0_2);
+  line-height: var(--lh-42);
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.rectangle47,
+.z13 {
+  position: relative;
+  flex-shrink: 0;
+}
+.z13 {
+  margin: 0;
+  font-size: inherit;
+  letter-spacing: var(--ls-0_2);
+  line-height: var(--lh-42);
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  min-width: var(--min-w-73);
+  z-index: 1;
+}
+.rectangle47 {
+  align-self: stretch;
+  height: var(--height-1);
+  background-color: var(--color-gainsboro);
+}
+.pier-z-kaczki {
+  width: 306px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -54.4px;
+  left: -3.5px;
+  font-size: var(--fs-20);
+  letter-spacing: var(--ls-0_2);
+  line-height: var(--lh-30);
+  font-family: var(--font-josefin-sans);
+  color: var(--color-dimgray-200);
+  display: inline-block;
+  flex-shrink: 0;
+}
+.frame11 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 9.7px var(--padding-1) var(--padding-11) var(--padding-0);
+  gap: var(--gap-20);
+  z-index: 1;
+  margin-top: -1px;
+  position: relative;
+}
+.panna-cotta {
+  margin: 0;
+  width: 166px;
+  font-size: inherit;
+  line-height: var(--lh-42);
+  font-weight: 400;
+  font-family: inherit;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.mietanka-mleko,
+.panna-cotta,
+.z14 {
+  position: relative;
+  letter-spacing: var(--ls-0_2);
+  display: inline-block;
+}
+.z14 {
+  margin: 0;
+  font-size: inherit;
+  line-height: var(--lh-42);
+  font-weight: 400;
+  font-family: inherit;
+  min-width: 71px;
+  z-index: 1;
+  flex-shrink: 0;
+}
+.mietanka-mleko {
+  width: 307px;
+  line-height: var(--lh-30);
+}
+.dish-card-collection4,
+.frame12 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  isolation: isolate;
+}
+.dish-card-collection4 {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-0_3) var(--padding-0) 51.6px var(--padding-0);
+  gap: 27.7px;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--fs-30);
+  color: var(--color-darkslategray-300);
+  font-family: var(--font-cormorant-infant);
+}
+.frame12 {
+  justify-content: flex-end;
+  padding: 9.7px var(--padding-1) 11.3px;
+  z-index: 1;
+  margin-top: -1px;
+}
+.firmowa-praga-38,
+.mix-saat {
+  position: absolute;
+  margin: 0 !important;
+  letter-spacing: var(--ls-0_2);
+  display: inline-block;
+  flex-shrink: 0;
+}
+.firmowa-praga-38 {
+  width: 246px;
+  bottom: -30.7px;
+  left: 0;
+  line-height: var(--lh-42);
+  z-index: 1;
+}
+.mix-saat {
+  width: 260px;
+  bottom: -50.4px;
+  left: 3.5px;
+  font-size: var(--fs-20);
+  line-height: var(--lh-30);
+  font-family: var(--font-josefin-sans);
+  color: var(--color-dimgray-200);
+}
+.frame13,
+.view-all-dishes-link {
+  display: flex;
+  align-items: flex-start;
+}
+.view-all-dishes-link {
+  width: 1361px;
+  height: var(--height-73);
+  justify-content: flex-end;
+  padding: var(--padding-0) 553px;
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.frame13 {
+  cursor: pointer;
+  border: var(--border-1);
+  padding: var(--padding-17) var(--padding-5);
+  background-color: transparent;
+  align-self: stretch;
+  flex: 1;
+}
+.rectangle53,
+.uslugi {
+  background-color: var(--color-darkslategray-300);
+  max-width: 100%;
+}
+.uslugi {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  padding: 129px var(--padding-40) 140px;
+  box-sizing: border-box;
+  gap: 100px;
+  text-align: left;
+  font-size: var(--fs-36);
+  color: var(--color-white);
+  font-family: var(--font-josefin-sans);
+}
+.rectangle53 {
+  height: 515px;
+  width: var(--width-1440);
+  position: relative;
+  display: none;
+  flex-shrink: 0;
+}
+.services-intro-header {
+  width: 438px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-11);
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.service-header-decoration {
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-0) 2px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangle-icon {
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.what-we-offer-parent {
+  width: 327px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-2);
+  max-width: 100%;
+}
+.what-we-offer {
+  width: 172px;
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  isolation: isolate;
+  z-index: 1;
+}
+.co-oferujemy {
+  margin: 0 !important;
+  position: absolute;
+  right: -152px;
+  bottom: -1px;
+  font-size: inherit;
+  letter-spacing: var(--ls-3);
+  line-height: var(--lh-22_5);
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 1;
+  flex-shrink: 0;
+}
+.atmosfera-robi-wraenie,
+.nasze-doskonae-usugi {
+  position: relative;
+  letter-spacing: var(--ls-0_2);
+  z-index: 1;
+}
+.nasze-doskonae-usugi {
+  margin: 0;
+  font-size: var(--fs-40);
+  line-height: var(--lh-56);
+  text-transform: capitalize;
+  font-weight: 400;
+  font-family: var(--font-cormorant-infant);
+  display: inline-block;
+  max-width: 100%;
+}
+.atmosfera-robi-wraenie {
+  font-size: var(--fs-20);
+  line-height: var(--lh-30);
+}
+.service-features-grid {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-11) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  min-width: 534px;
+  max-width: 100%;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--fs-25);
+  color: var(--color-white);
+  font-family: var(--font-cormorant-infant);
+}
+.service-items-collection-parent {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  gap: var(--gap-30);
+}
+.rectangle56,
+.service-items-collection {
+  border: var(--border-2);
+  box-sizing: border-box;
+}
+.service-items-collection {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 44px 43px var(--padding-4) 42px;
+  gap: var(--gap-15);
+  min-width: 190px;
+  min-height: 235px;
+  z-index: 1;
+}
+.rectangle56 {
+  width: 254px;
+  height: 235px;
+  position: relative;
+  display: none;
+  flex-shrink: 0;
+}
+.image-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-0) var(--padding-34) var(--padding-0) 35px;
+  flex-shrink: 0;
+}
+.image-icon11 {
+  height: var(--height-60);
+  width: var(--width-60);
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.pon-niedz-1100-2200 {
+  width: 129px;
+  position: relative;
+  letter-spacing: var(--ls-0_2);
+  line-height: 35px;
+  display: inline-block;
+  z-index: 1;
+  flex-shrink: 0;
+}
+.image-frame,
+.service-items-collection2 {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.service-items-collection2 {
+  flex: 1.2015;
+  border: var(--border-2);
+  flex-direction: column;
+  padding: 44px 25px var(--padding-4) var(--padding-34);
+  gap: var(--gap-15);
+  min-width: 190px;
+  min-height: 235px;
+  z-index: 1;
+}
+.image-frame {
+  width: 155px;
+  padding: var(--padding-0) 43px;
+  flex-shrink: 0;
+}
+.menu-specjalne {
+  height: var(--height-70);
+  position: relative;
+  letter-spacing: var(--ls-0_2);
+  line-height: 35px;
+  display: inline-block;
+  z-index: 1;
+  flex-shrink: 0;
+}
+.service-items-collection3 {
+  flex: 1.186;
+  border: var(--border-2);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 44px 30px 39px 31px;
+  gap: var(--gap-15);
+  min-width: 190px;
+  min-height: 235px;
+  z-index: 1;
+}
+.image-wrapper2 {
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-0) 47px var(--padding-0) 46px;
+  flex-shrink: 0;
+}
+.na-wynos {
+  margin: 0;
+  width: 153px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: var(--ls-0_2);
+  line-height: 35px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 1;
+  flex-shrink: 0;
+}
+.image-icon14,
+.rezervaja {
+  width: 1442px;
+  max-width: 100%;
+}
+.rezervaja {
+  margin-right: -1px;
+  display: flex;
+  align-items: flex-start;
+  padding: 140px 260px;
+  box-sizing: border-box;
+  background-image: url(./public/IMAGE@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  z-index: 2;
+  text-align: center;
+  font-size: var(--fs-36);
+  color: var(--color-white);
+  font-family: var(--font-josefin-sans);
+}
+.image-icon14 {
+  height: 977px;
+  position: relative;
+  object-fit: cover;
+  display: none;
+  flex-shrink: 0;
+}
+.rectangle59,
+.reservation-container {
+  background-color: var(--color-darkslategray-500);
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.reservation-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 131px 140px 155px;
+  box-sizing: border-box;
+  gap: var(--gap-30);
+  z-index: 1;
+}
+.rectangle59 {
+  width: 921.3px;
+  height: 697px;
+  position: relative;
+  display: none;
+}
+.reservation-header {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-0) var(--padding-8);
+  flex-shrink: 0;
+}
+.reservation-title-container {
+  width: 311px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 9px;
+}
+.reservation-label-area {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-0) var(--padding-17) var(--padding-0) var(--padding-19);
+}
+.rectangle60 {
+  height: var(--height-1);
+  flex: 1;
+  position: relative;
+  background-color: var(--color-burlywood);
+  z-index: 1;
+}
+.reservation-main-title {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-2);
+}
+.reservation-heading-wrapper {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-0) 66px var(--padding-0) 64px;
+}
+.frame14 {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  isolation: isolate;
+  z-index: 1;
+}
+.reservation-decoration {
+  height: var(--height-27);
+  flex: 1;
+  position: relative;
+  flex-shrink: 0;
+}
+.rezerwacja3 {
+  margin: 0 !important;
+  width: 282px;
+  position: absolute;
+  bottom: 0;
+  left: -69.6px;
+  font-size: inherit;
+  letter-spacing: var(--ls-3);
+  line-height: var(--lh-22_5);
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.zarezerwuj-stolik {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--fs-40);
+  letter-spacing: var(--ls-0_2);
+  line-height: var(--lh-56);
+  text-transform: capitalize;
+  font-weight: 400;
+  font-family: var(--font-cormorant-infant);
+  z-index: 1;
+}
+.contact-info-fields,
+.reservation-form-fields {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.reservation-form-fields {
+  flex-direction: column;
+  gap: var(--gap-30);
+  flex-shrink: 0;
+}
+.contact-info-fields {
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: var(--gap-26);
+}
+.name-email-wrappers {
+  flex: 1;
+  border: var(--border-3);
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-16) 23px var(--padding-17);
+  min-width: 200px;
+  min-height: var(--min-h-70);
+  z-index: 1;
+}
+.imi-i-nazwisko,
+.rectangle62 {
+  position: relative;
+  flex-shrink: 0;
+}
+.rectangle62 {
+  height: var(--height-70);
+  width: 307.4px;
+  border: var(--border-3);
+  box-sizing: border-box;
+  display: none;
+}
+.imi-i-nazwisko {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-josefin-sans);
+  font-size: var(--fs-22);
+  background-color: transparent;
+  letter-spacing: var(--ls-0_2);
+  line-height: var(--lh-33);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  padding: var(--padding-01);
+  z-index: 2;
+}
+.name-email-wrappers2 {
+  flex: 1;
+  border: var(--border-3);
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-16) 25px var(--padding-17);
+  min-width: 200px;
+  min-height: var(--min-h-70);
+  z-index: 1;
+}
+.reservation-details-fields {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 23px;
+}
+.party-time-date-wrappers {
+  flex: 1.0579;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-16) 25px var(--padding-17);
+  min-width: 129px;
+  min-height: var(--min-h-70);
+  z-index: 1;
+}
+.party-time-date-wrappers,
+.party-time-date-wrappers3,
+.rectangle64 {
+  border: var(--border-3);
+  box-sizing: border-box;
+}
+.rectangle64 {
+  height: var(--height-70);
+  width: 198.3px;
+  position: relative;
+  display: none;
+  flex-shrink: 0;
+}
+.party-time-date-wrappers3 {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-16) 29px var(--padding-17);
+  min-width: 129px;
+  min-height: var(--min-h-70);
+  z-index: 1;
+}
+.book-table-button-container {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-0) 200px var(--padding-0) 199px;
+  flex-shrink: 0;
+  font-size: var(--fs-22);
+  color: var(--color-black);
+}
+.rectangle-parent2,
+.rectangle67 {
+  background-color: var(--color-white);
+}
+.rectangle-parent2 {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  padding: 23px var(--padding-34) 12px 35px;
+  z-index: 1;
+}
+.rectangle67 {
+  height: 68px;
+  width: 242px;
+  position: relative;
+  display: none;
+  flex-shrink: 0;
+}
+.zarezerwuj-stolik2 {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: var(--ls-0_2);
+  line-height: var(--lh-33);
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 2;
+  flex-shrink: 0;
+}
+.rectangle68,
+.website-footer {
+  background-color: var(--color-darkslategray-300);
+  max-width: 100%;
+}
+.website-footer {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 6px 94px 31px 69px;
+  box-sizing: border-box;
+  gap: var(--gap-20);
+  z-index: 3;
+  text-align: left;
+  font-size: var(--fs-15);
+  color: var(--color-white);
+  font-family: var(--font-josefin-sans);
+}
+.rectangle68 {
+  height: 287px;
+  width: var(--width-1440);
+  position: relative;
+  display: none;
+  flex-shrink: 0;
+}
+.footer-contact-social,
+.footer-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.footer-content-wrapper {
+  width: 387px;
+  justify-content: flex-end;
+  padding: var(--padding-0) var(--padding-0) 33px;
+  flex-shrink: 0;
+}
+.footer-contact-social {
+  padding: 15.2px 23px 13.2px var(--padding-0);
+  gap: 33px;
+  z-index: 4;
+}
+.rectangle69 {
+  width: 332px;
+  height: 176px;
+  position: relative;
+  display: none;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.footer-contact-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.8px;
+  flex-shrink: 0;
+}
+.footer-contact-title-wrapper {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-0) var(--padding-0) var(--padding-0);
+  position: relative;
+  isolation: isolate;
+  z-index: 1;
+}
+.contact-word-holder-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.contact-word-holder {
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-0) var(--padding-0) var(--padding-0);
+}
+.contact,
+.rectangle70 {
+  position: relative;
+  flex-shrink: 0;
+}
+.contact {
+  margin-bottom: -0.8px;
+  letter-spacing: var(--ls-3);
+  line-height: 21px;
+  text-transform: uppercase;
+  z-index: 1;
+}
+.rectangle70 {
+  align-self: stretch;
+  height: var(--height-1);
+  background-color: var(--color-burlywood);
+  z-index: 2;
+}
+.zbkowska-38-03-735-warszawa-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-2);
+  flex-shrink: 0;
+  font-size: var(--fs-20);
+}
+.zbkowska-38-03-7352 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: var(--ls-0_2);
+  line-height: var(--lh-30);
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 1;
+}
+.parent {
+  width: 149px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 7px;
+  font-size: var(--fs-19);
+  color: var(--color-burlywood);
+}
+.div {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: var(--ls-0_2);
+  line-height: var(--lh-30);
+  z-index: 1;
+}
+.icon-container {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  isolation: isolate;
+}
+.group-icon {
+  height: 26px;
+  width: 49px;
+  position: absolute;
+  margin: 0 !important;
+  top: -2px;
+  left: -26px;
+  z-index: 1;
+  flex-shrink: 0;
+}
+.social-icon-container-two {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-0) var(--padding-0) var(--padding-0) var(--padding-40);
+  flex-shrink: 0;
+}
+.vector-parent {
+  display: flex;
+  align-items: flex-start;
+  gap: 17px;
+}
+.frame-child,
+.vector-icon {
+  height: 22px;
+  width: 24px;
+  position: relative;
+  z-index: 1;
+}
+.frame-child {
+  height: 22.8px;
+  width: 23.6px;
+}
+.website-footer-child {
+  height: 250px;
+  width: 250px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+  z-index: 4;
+  flex-shrink: 0;
+}
+.footer-opening-hours {
+  width: 332px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-0) var(--padding-0) var(--padding-17);
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+  text-align: right;
+}
+.opening-hours-display2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 46px var(--padding-0) 47px;
+  position: relative;
+  isolation: isolate;
+  gap: 20.7px;
+  z-index: 4;
+}
+.opening-hours-title-wrapper {
+  width: 176px;
+  height: 32px;
+  position: relative;
+  z-index: 1;
+  flex-shrink: 0;
+}
+.opening-hours-title-rects {
+  width: 117.61%;
+  top: 32px;
+  left: -17.61%;
+  background-color: var(--color-burlywood);
+  height: var(--height-1);
+}
+.godziny-otwarcia2,
+.opening-hours-title-rects,
+.rectangle71 {
+  position: absolute;
+  right: 0;
+  flex-shrink: 0;
+}
+.rectangle71 {
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 100%;
+  display: none;
+}
+.godziny-otwarcia2 {
+  top: 7px;
+  letter-spacing: var(--ls-3);
+  line-height: 21px;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 210px;
+  white-space: nowrap;
+}
+.opening-hours-title-rects2 {
+  position: absolute;
+  width: 117.61%;
+  top: -1px;
+  right: 0;
+  left: -17.61%;
+  background-color: var(--color-burlywood);
+  height: var(--height-1);
+  flex-shrink: 0;
+}
+.pon-niedz-parent {
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  font-size: var(--fs-20);
+  color: var(--color-burlywood);
+}
+.pon-niedz2 {
+  margin: 0;
+  width: 109px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: var(--ls-0_2);
+  line-height: var(--lh-30);
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.availability {
+  width: 123px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-0) var(--padding-0) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  color: var(--color-white);
+}
+.empty-time {
+  margin: 0;
+  width: 170px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: var(--ls-0_2);
+  line-height: var(--lh-30);
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+@media screen and (max-width: 1275px) {
+  .main-content {
+    padding-bottom: 684px;
+    box-sizing: border-box;
+  }
+  .about {
+    height: auto;
+    padding-top: 27px;
+    padding-bottom: var(--padding-20);
+    box-sizing: border-box;
+  }
+  .frame3,
+  .hero-content {
+    flex-wrap: wrap;
+  }
+  .philosophy-statement-wrapper {
+    flex: 1;
+  }
+  .frame-parent {
+    flex-wrap: wrap;
+  }
+  .za-kadym-razem-gdy-bdziesz-wrapper {
+    flex: 1;
+  }
+  .menu-items-continued {
+    padding-bottom: 56px;
+    box-sizing: border-box;
+  }
+  .dish-preview {
+    gap: 71px;
+    flex-wrap: wrap;
+  }
+  .dish-image-container {
+    flex: 1;
+  }
+  .image-icon5 {
+    align-self: stretch;
+    width: 100%;
+  }
+  .soup-item-price-container-parent {
+    flex-wrap: wrap;
+  }
+  .coment {
+    height: auto;
+  }
+  .image-parent {
+    padding-bottom: 37px;
+    box-sizing: border-box;
+  }
+  .view-all-dishes-link {
+    padding-left: 276px;
+    padding-right: 276px;
+    box-sizing: border-box;
+  }
+  .uslugi {
+    flex-wrap: wrap;
+  }
+  .services-intro-header {
+    flex: 1;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .footer {
+    height: auto;
+  }
+  .contact-info {
+    flex-wrap: wrap;
+  }
+  .content-wrapper {
+    padding-bottom: 82px;
+    box-sizing: border-box;
+  }
+  .about {
+    padding-top: var(--padding-20);
+    box-sizing: border-box;
+  }
+  .menu-wrapper {
+    height: auto;
+    min-height: 323.7px;
+  }
+  .menu-content-wrapper {
+    flex-wrap: wrap;
+  }
+  .przystawkii-parent {
+    flex: 1;
+  }
+  .dish-view-button-and-name {
+    flex-wrap: wrap;
+  }
+  .reviews-content {
+    padding-top: 77px;
+    padding-bottom: 78px;
+    box-sizing: border-box;
+  }
+  .review-card-one {
+    flex-wrap: wrap;
+    min-width: 100%;
+  }
+  .image-parent {
+    padding-bottom: 24px;
+    box-sizing: border-box;
+  }
+  .menu-item-grid {
+    justify-content: center;
+    grid-template-columns: repeat(2, minmax(238px, 413px));
+  }
+  .rezervaja {
+    padding-top: 91px;
+    padding-bottom: 91px;
+    box-sizing: border-box;
+  }
+  .reservation-container {
+    padding-left: 70px;
+    padding-right: 70px;
+    box-sizing: border-box;
+  }
+  .reservation-details-fields {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .main-content {
+    padding-bottom: 445px;
+    box-sizing: border-box;
+  }
+  .footer {
+    gap: 41px;
+  }
+  .top-bar {
+    gap: 17px;
+  }
+  .about {
+    gap: 21px;
+  }
+  .detail-container {
+    padding-bottom: 99px;
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .welcome-content {
+    gap: var(--gap-20);
+  }
+  .witamy-w-restauracji {
+    font-size: 50px;
+    line-height: 66px;
+  }
+  .image-showcase {
+    min-width: 100%;
+  }
+  .godziny-otwarcia,
+  .znajd-nas {
+    font-size: var(--fs-24);
+    line-height: 31px;
+  }
+  .hero-content {
+    gap: 22px;
+  }
+  .image-icon4,
+  .philosophy-statement-wrapper {
+    min-width: 100%;
+  }
+  .philosophy-statement {
+    gap: 19px;
+  }
+  .gdzie-smak-spotyka {
+    font-size: var(--fs-32);
+    line-height: var(--lh-45);
+  }
+  .menu {
+    font-size: var(--fs-29);
+    line-height: var(--lh-18);
+  }
+  .sprbuj-naszych-specjalnych {
+    font-size: var(--fs-32);
+    line-height: var(--lh-45);
+  }
+  .przystawkii-parent {
+    min-width: 100%;
+  }
+  .przystawkii {
+    font-size: var(--fs-29);
+    line-height: var(--lh-40);
+  }
+  .tost-z-mozzarel {
+    font-size: var(--fs-24);
+    line-height: var(--lh-34);
+  }
+  .frame-parent {
+    gap: var(--gap-26);
+  }
+  .za-kadym-razem-gdy-bdziesz-wrapper {
+    min-width: 100%;
+  }
+  .menu-item-list {
+    flex-wrap: wrap;
+    min-width: 100%;
+  }
+  .menu-item-entry {
+    min-width: 100%;
+  }
+  .tost-z-prosciutto {
+    font-size: var(--fs-24);
+    line-height: var(--lh-34);
+  }
+  .price-display-container {
+    margin-left: 0;
+  }
+  .z {
+    font-size: var(--fs-24);
+    line-height: var(--lh-34);
+  }
+  .menu-items-continued {
+    padding-bottom: 36px;
+    box-sizing: border-box;
+  }
+  .dish-preview {
+    gap: 36px;
+  }
+  .dish-description-panel,
+  .dish-image-container {
+    min-width: 100%;
+  }
+  .ledzik,
+  .z3 {
+    font-size: var(--fs-24);
+    line-height: var(--lh-34);
+  }
+  .menu-item-pairs {
+    flex-wrap: wrap;
+  }
+  .tatar-woowy,
+  .z4 {
+    font-size: var(--fs-24);
+    line-height: var(--lh-34);
+  }
+  .dish-detail-set {
+    flex-wrap: wrap;
+  }
+  .poldwica-woowa {
+    min-width: 100%;
+  }
+  .item-dividers-wrapper {
+    margin-left: 0;
+  }
+  .zupy {
+    font-size: 28px;
+    line-height: var(--lh-40);
+  }
+  .barszcz-biay,
+  .pomidorowa,
+  .z6,
+  .z7,
+  .z8 {
+    font-size: var(--fs-24);
+    line-height: var(--lh-34);
+  }
+  .kiebasa-biaa-boczek-ziem-parent {
+    flex-wrap: wrap;
+  }
+  .rectangle-container {
+    margin-left: 0;
+  }
+  .barszcz-z-fasolk,
+  .z9 {
+    font-size: var(--fs-24);
+    line-height: var(--lh-34);
+  }
+  .ingredient-list-block {
+    flex-wrap: wrap;
+  }
+  .rectangle-frame {
+    margin-left: 0;
+  }
+  .dodatki {
+    font-size: var(--fs-29);
+    line-height: var(--lh-40);
+  }
+  .price-tag-wrapper {
+    min-width: 100%;
+  }
+  .z10 {
+    font-size: var(--fs-24);
+    line-height: var(--lh-34);
+  }
+  .another-addon-item {
+    height: auto;
+    min-height: 40.4px;
+  }
+  .pickle-addon-details {
+    flex-wrap: wrap;
+  }
+  .z11 {
+    font-size: var(--fs-24);
+    line-height: var(--lh-34);
+  }
+  .recenzje {
+    font-size: var(--fs-29);
+    line-height: var(--lh-18);
+  }
+  .nasi-klienci-mwi {
+    font-size: var(--fs-32);
+    line-height: var(--lh-45);
+  }
+  .review-items-display {
+    gap: 35px;
+  }
+  .review-content-container {
+    gap: var(--gap-16);
+    min-width: 100%;
+  }
+  .rusan-krugly {
+    font-size: var(--fs-24);
+    line-height: var(--lh-34);
+  }
+  .review-card-two {
+    gap: var(--gap-16);
+    min-width: 100%;
+  }
+  .second-review-header {
+    height: auto;
+  }
+  .second-reviewer-info {
+    flex-wrap: wrap;
+  }
+  .avatar-second-placeholder {
+    flex: 1;
+  }
+  .david-lue,
+  .martin,
+  .natasha-d,
+  .petro-shevchuk {
+    font-size: var(--fs-24);
+    line-height: var(--lh-34);
+  }
+  .image-parent {
+    gap: 27px;
+    padding-bottom: var(--padding-20);
+    box-sizing: border-box;
+  }
+  .menu2 {
+    font-size: var(--fs-29);
+    line-height: var(--lh-18);
+  }
+  .popularne-dania {
+    font-size: var(--fs-32);
+    line-height: var(--lh-45);
+  }
+  .menu-item-grid {
+    grid-template-columns: minmax(238px, 1fr);
+  }
+  .firmowa-praga-38,
+  .kotlet-schabowy-na,
+  .oso-grillowany,
+  .panna-cotta,
+  .z12,
+  .z13,
+  .z14 {
+    font-size: var(--fs-24);
+    line-height: var(--lh-34);
+  }
+  .view-all-dishes-link {
+    padding-left: 138px;
+    padding-right: 138px;
+    box-sizing: border-box;
+  }
+  .uslugi {
+    gap: 50px;
+    padding-top: 84px;
+    padding-bottom: 91px;
+    box-sizing: border-box;
+  }
+  .services-intro-header {
+    min-width: 100%;
+  }
+  .co-oferujemy {
+    font-size: var(--fs-29);
+    line-height: var(--lh-18);
+  }
+  .nasze-doskonae-usugi {
+    font-size: var(--fs-32);
+    line-height: var(--lh-45);
+  }
+  .service-features-grid {
+    min-width: 100%;
+  }
+  .service-items-collection-parent {
+    flex-wrap: wrap;
+  }
+  .service-items-collection,
+  .service-items-collection2,
+  .service-items-collection3 {
+    min-height: auto;
+  }
+  .rezervaja {
+    padding: 59px 130px;
+    box-sizing: border-box;
+  }
+  .reservation-container {
+    padding-top: 85px;
+    padding-bottom: 101px;
+    box-sizing: border-box;
+  }
+  .rezerwacja3 {
+    font-size: var(--fs-29);
+    line-height: var(--lh-18);
+  }
+  .zarezerwuj-stolik {
+    font-size: var(--fs-32);
+    line-height: var(--lh-45);
+  }
+  .book-table-button-container {
+    padding-left: 99px;
+    padding-right: 100px;
+    box-sizing: border-box;
+  }
+  .website-footer {
+    padding-left: var(--padding-34);
+    padding-right: 47px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .footer {
+    gap: var(--gap-20);
+    padding-top: var(--padding-20);
+    padding-bottom: 53px;
+    box-sizing: border-box;
+  }
+  .tel-48-511 {
+    font-size: var(--fs-18);
+    line-height: var(--lh-26);
+  }
+  .frame {
+    padding-left: var(--padding-20);
+    padding-right: var(--padding-20);
+    box-sizing: border-box;
+  }
+  .rezerwacja {
+    font-size: var(--fs-18);
+    line-height: var(--lh-26);
+  }
+  .content-wrapper {
+    padding-bottom: 53px;
+    box-sizing: border-box;
+  }
+  .witamy-w-restauracji {
+    font-size: var(--fs-30);
+    line-height: 44px;
+  }
+  .ludzie-jedzenie-i {
+    font-size: var(--fs-16);
+    line-height: var(--lh-24);
+  }
+  .wywietl-menu {
+    font-size: var(--fs-18);
+    line-height: var(--lh-26);
+  }
+  .location-details {
+    flex-wrap: wrap;
+  }
+  .znajd-nas {
+    font-size: var(--fs-18);
+    line-height: 23px;
+  }
+  .hours-spacer-parent {
+    flex-wrap: wrap;
+  }
+  .godziny-otwarcia {
+    font-size: var(--fs-18);
+    line-height: 23px;
+  }
+  .pon-niedz {
+    font-size: var(--fs-16);
+    line-height: var(--lh-24);
+  }
+  .location-details2 {
+    flex-wrap: wrap;
+  }
+  .rezerwacja2 {
+    font-size: var(--fs-18);
+    line-height: var(--lh-26);
+  }
+  .h3 {
+    font-size: var(--fs-16);
+    line-height: var(--lh-24);
+  }
+  .gdzie-smak-spotyka {
+    font-size: var(--fs-24);
+    line-height: var(--lh-34);
+  }
+  .nasza-filozofia-jest {
+    font-size: var(--fs-16);
+    line-height: var(--lh-24);
+  }
+  .menu {
+    font-size: var(--fs-22);
+    line-height: var(--lh-13);
+  }
+  .sprbuj-naszych-specjalnych {
+    font-size: var(--fs-24);
+    line-height: var(--lh-34);
+  }
+  .przystawkii {
+    font-size: var(--fs-22);
+    line-height: var(--lh-30);
+  }
+  .tost-z-mozzarel {
+    font-size: var(--fs-18);
+    line-height: var(--lh-25);
+  }
+  .za-kadym-razem {
+    font-size: var(--fs-16);
+    line-height: var(--lh-24);
+  }
+  .menu-item-entry {
+    gap: 23px;
+  }
+  .chleb-pesto {
+    font-size: var(--fs-16);
+    line-height: var(--lh-24);
+  }
+  .tost-z-prosciutto {
+    font-size: var(--fs-18);
+    line-height: var(--lh-25);
+  }
+  .chleb-sos {
+    font-size: var(--fs-16);
+    line-height: var(--lh-24);
+  }
+  .z {
+    font-size: var(--fs-18);
+    line-height: var(--lh-25);
+  }
+  .dish-preview {
+    gap: var(--gap-18);
+  }
+  .dish-description-panel {
+    gap: var(--gap-20);
+  }
+  .herring-name-and-price {
+    flex-wrap: wrap;
+  }
+  .ledzik,
+  .z3 {
+    font-size: var(--fs-18);
+    line-height: var(--lh-25);
+  }
+  .menu-food-list-parent {
+    gap: var(--gap-18);
+  }
+  .menu-food-list {
+    gap: 27px;
+  }
+  .tatar-woowy,
+  .z4 {
+    font-size: var(--fs-18);
+    line-height: var(--lh-25);
+  }
+  .poldwica-woowa {
+    font-size: var(--fs-16);
+    line-height: var(--lh-24);
+  }
+  .zupy {
+    font-size: 21px;
+    line-height: var(--lh-30);
+  }
+  .pomidorowa {
+    font-size: var(--fs-18);
+    line-height: var(--lh-25);
+  }
+  .pomidory-przyprawy {
+    font-size: var(--fs-16);
+    line-height: var(--lh-24);
+  }
+  .price-with-background {
+    flex-wrap: wrap;
+  }
+  .z6 {
+    font-size: var(--fs-18);
+    line-height: var(--lh-25);
+  }
+  .barszcz-biay,
+  .z7,
+  .z8,
+  .zobacz-wszystkie-dania {
+    font-size: var(--fs-18);
+    line-height: var(--lh-26);
+  }
+  .barszcz-biay,
+  .z7,
+  .z8 {
+    line-height: var(--lh-25);
+  }
+  .soup-and-ingredient-block {
+    gap: var(--gap-28);
+  }
+  .kiebasa-biaa {
+    font-size: var(--fs-16);
+    line-height: var(--lh-24);
+    min-width: 100%;
+  }
+  .barszcz-z-fasolk,
+  .z9 {
+    font-size: var(--fs-18);
+    line-height: var(--lh-25);
+  }
+  .wieprzowina-warzywa {
+    font-size: var(--fs-16);
+    line-height: var(--lh-24);
+    min-width: 100%;
+  }
+  .dodatki-parent {
+    gap: 24px;
+  }
+  .dodatki {
+    font-size: var(--fs-22);
+    line-height: var(--lh-30);
+  }
+  .z10,
+  .z11 {
+    font-size: var(--fs-18);
+    line-height: var(--lh-25);
+  }
+  .reviews-content {
+    padding-top: 50px;
+    padding-bottom: 51px;
+    box-sizing: border-box;
+  }
+  .recenzje {
+    font-size: var(--fs-22);
+    line-height: var(--lh-13);
+  }
+  .nasi-klienci-mwi {
+    font-size: var(--fs-24);
+    line-height: var(--lh-34);
+  }
+  .review-items-display {
+    gap: 17px;
+  }
+  .reviewer-info {
+    flex-wrap: wrap;
+  }
+  .avatar-placeholder-icon {
+    flex: 1;
+  }
+  .rusan-krugly {
+    font-size: var(--fs-18);
+    line-height: var(--lh-25);
+  }
+  .pyszna-kuchnia-doskonaa {
+    font-size: var(--fs-19);
+    line-height: var(--lh-30);
+  }
+  .petro-shevchuk {
+    font-size: var(--fs-18);
+    line-height: var(--lh-25);
+  }
+  .odwiedziem-t-wspania,
+  .synie-z-niesamowitego {
+    font-size: var(--fs-20);
+    line-height: var(--lh-30);
+  }
+  .david-lue,
+  .martin {
+    font-size: var(--fs-18);
+    line-height: var(--lh-25);
+  }
+  .newyork {
+    font-size: var(--fs-16);
+    line-height: var(--lh-24);
+  }
+  .a-restaurant-with {
+    font-size: var(--fs-20);
+    line-height: var(--lh-30);
+  }
+  .newyork2 {
+    font-size: var(--fs-16);
+    line-height: var(--lh-24);
+  }
+  .natasha-d {
+    font-size: var(--fs-18);
+    line-height: var(--lh-25);
+  }
+  .they-known-for {
+    font-size: var(--fs-19);
+    line-height: var(--lh-30);
+  }
+  .menu2 {
+    font-size: var(--fs-22);
+    line-height: var(--lh-13);
+  }
+  .popularne-dania {
+    font-size: var(--fs-24);
+    line-height: var(--lh-34);
+  }
+  .pasja-ktr-poczujesz {
+    font-size: var(--fs-16);
+    line-height: var(--lh-24);
+  }
+  .frame9 {
+    flex-wrap: wrap;
+  }
+  .oso-grillowany,
+  .z12 {
+    font-size: var(--fs-18);
+    line-height: var(--lh-25);
+  }
+  .oso-warzywa {
+    font-size: var(--fs-16);
+    line-height: var(--lh-24);
+  }
+  .dish-card-collection2 {
+    gap: 17px;
+    padding-top: var(--padding-20);
+    padding-bottom: 28px;
+    box-sizing: border-box;
+  }
+  .kotlet-schabowy-na,
+  .z13 {
+    font-size: var(--fs-18);
+    line-height: var(--lh-25);
+  }
+  .pier-z-kaczki {
+    font-size: var(--fs-16);
+    line-height: var(--lh-24);
+  }
+  .frame11 {
+    flex-wrap: wrap;
+  }
+  .panna-cotta,
+  .z14 {
+    font-size: var(--fs-18);
+    line-height: var(--lh-25);
+  }
+  .mietanka-mleko {
+    font-size: var(--fs-16);
+    line-height: var(--lh-24);
+  }
+  .dish-card-collection4 {
+    padding-top: var(--padding-20);
+    padding-bottom: var(--padding-34);
+    box-sizing: border-box;
+  }
+  .firmowa-praga-38 {
+    font-size: var(--fs-18);
+    line-height: var(--lh-25);
+  }
+  .mix-saat {
+    font-size: var(--fs-16);
+    line-height: var(--lh-24);
+  }
+  .view-all-dishes-link {
+    padding-left: var(--padding-20);
+    padding-right: var(--padding-20);
+    box-sizing: border-box;
+  }
+  .uslugi {
+    gap: 25px;
+  }
+  .co-oferujemy {
+    font-size: var(--fs-22);
+    line-height: var(--lh-13);
+  }
+  .nasze-doskonae-usugi {
+    font-size: var(--fs-24);
+    line-height: var(--lh-34);
+  }
+  .atmosfera-robi-wraenie {
+    font-size: var(--fs-16);
+    line-height: var(--lh-24);
+  }
+  .service-items-collection {
+    flex: 1;
+  }
+  .menu-specjalne,
+  .pon-niedz-1100-2200 {
+    font-size: var(--fs-20);
+    line-height: var(--lh-28);
+  }
+  .service-items-collection3 {
+    flex: 1;
+  }
+  .na-wynos {
+    font-size: var(--fs-20);
+    line-height: var(--lh-28);
+  }
+  .rezervaja {
+    padding-left: var(--padding-20);
+    padding-right: var(--padding-20);
+    box-sizing: border-box;
+  }
+  .reservation-container {
+    gap: var(--gap-15);
+    padding-left: 35px;
+    padding-right: 35px;
+    box-sizing: border-box;
+  }
+  .reservation-heading-wrapper {
+    padding-left: var(--padding-20);
+    padding-right: var(--padding-20);
+    box-sizing: border-box;
+  }
+  .rezerwacja3 {
+    font-size: var(--fs-22);
+    line-height: var(--lh-13);
+  }
+  .zarezerwuj-stolik {
+    font-size: var(--fs-24);
+    line-height: var(--lh-34);
+  }
+  .imi-i-nazwisko {
+    font-size: var(--fs-18);
+    line-height: var(--lh-26);
+  }
+  .party-time-date-wrappers3 {
+    flex: 1;
+  }
+  .book-table-button-container {
+    padding-left: var(--padding-20);
+  }
+  .book-table-button-container,
+  .website-footer {
+    padding-right: var(--padding-20);
+    box-sizing: border-box;
+  }
+  .footer-contact-social {
+    gap: var(--gap-16);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  html,
+  body {
+    min-width: auto;
+    overflow-x: hidden;
+  }
+  .desktop,
+  .main-content,
+  .footer,
+  .content-wrapper,
+  .about,
+  .menu-wrapper,
+  .menu-items-continued,
+  .coment,
+  .image-parent,
+  .uslugi,
+  .rezervaja,
+  .website-footer {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 16px;
+    box-sizing: border-box;
+  }
+  .desktop {
+    overflow: visible;
+  }
+  .main-content {
+    padding-bottom: 40px;
+  }
+  .footer {
+    padding-bottom: 32px;
+  }
+  .footer,
+  .about,
+  .frame3,
+  .hero-content,
+  .contact-info,
+  .menu-content-wrapper,
+  .menu-item-list,
+  .menu-item-grid,
+  .service-items-collection-parent,
+  .reservation-details-fields,
+  .contact-info-fields,
+  .review-items-display,
+  .frame-parent,
+  .dish-preview,
+  .dish-card-collection,
+  .dish-card-collection2,
+  .dish-card-collection4,
+  .review-card-one,
+  .review-content-container,
+  .review-card-two {
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  .contact-info {
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-items,
+  .contact-items2,
+  .detail-container,
+  .welcome-content-parent,
+  .image-showcase,
+  .philosophy-statement-wrapper,
+  .reservation-container,
+  .reservation-header,
+  .reservation-form-fields,
+  .menu-item-list,
+  .menu-item-grid,
+  .service-items-collection,
+  .frame,
+  .frame2,
+  .frame13,
+  .rectangle-parent2,
+  .name-email-wrappers,
+  .name-email-wrappers2,
+  .party-time-date-wrappers,
+  .party-time-date-wrappers3,
+  .review-content-container,
+  .review-card-two,
+  .footer-contact-social {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+  }
+  .nav-links,
+  .frame,
+  .frame2,
+  .frame13,
+  .rectangle-parent2 {
+    padding: 12px 16px;
+    box-sizing: border-box;
+  }
+  .circle-icon,
+  .avatar-placeholder-icon,
+  .avatar-second-placeholder {
+    width: 120px;
+    height: 120px;
+  }
+  .image-icon,
+  .image-icon2,
+  .image-icon3,
+  .image-icon4,
+  .image-icon5,
+  .image-icon6,
+  .image-icon7,
+  .image-icon11,
+  .image-icon14 {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  .image-and-overlay {
+    height: auto;
+  }
+  .welcome-content {
+    gap: 20px;
+  }
+  .witamy-w-restauracji {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .ludzie-jedzenie-i,
+  .nasza-filozofia-jest,
+  .pyszna-kuchnia-doskonaa,
+  .odwiedziem-t-wspania,
+  .a-restaurant-with,
+  .they-known-for,
+  .pasja-ktr-poczujesz {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .menu,
+  .sprbuj-naszych-specjalnych,
+  .przystawkii,
+  .tost-z-mozzarel,
+  .z,
+  .z3,
+  .ledzik,
+  .tatar-woowy,
+  .z4,
+  .barszcz-biay,
+  .z7,
+  .z8,
+  .z9,
+  .z10,
+  .z11,
+  .rezerwacja3,
+  .zarezerwuj-stolik,
+  .wywietl-menu,
+  .rezerwacja,
+  .rezerwacja2 {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .menu2,
+  .popularne-dania {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .rezervaja {
+    padding: 32px 0;
+  }
+  .reservation-container {
+    padding: 24px 0;
+  }
+  .reservation-details-fields,
+  .contact-info-fields,
+  .footer-contact-social {
+    gap: 12px;
+  }
+  .book-table-button-container {
+    padding: 0;
+  }
+  .view-all-dishes-link {
+    padding: 0 12px;
+  }
+  .menu-item-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  .menu-item-entry,
+  .menu-item-list,
+  .dish-preview,
+  .menu-food-list,
+  .item-dividers-wrapper,
+  .price-tag-wrapper,
+  .menu-item-separator-wrapper,
+  .rectangle-container,
+  .rectangle-frame {
+    width: 100%;
+    min-width: 0;
+  }
+  .footer {
+    padding-top: 24px;
+    padding-bottom: 32px;
+  }
+  .website-footer {
+    padding: 24px 16px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .main-content,
+  .about,
+  .menu-wrapper,
+  .menu-items-continued,
+  .coment,
+  .image-parent,
+  .uslugi,
+  .rezervaja,
+  .website-footer {
+    padding: 0 12px;
+  }
+  .contact-info,
+  .frame3,
+  .hero-content,
+  .menu-content-wrapper,
+  .menu-item-list,
+  .service-items-collection-parent,
+  .reservation-details-fields,
+  .contact-info-fields,
+  .review-items-display,
+  .frame-parent,
+  .dish-preview,
+  .review-card-one,
+  .review-content-container,
+  .review-card-two {
+    gap: 12px;
+  }
+  .circle-icon,
+  .avatar-placeholder-icon,
+  .avatar-second-placeholder {
+    width: 100px;
+    height: 100px;
+  }
+  .witamy-w-restauracji {
+    font-size: 28px;
+    line-height: 38px;
+  }
+  .ludzie-jedzenie-i,
+  .nasza-filozofia-jest,
+  .pyszna-kuchnia-doskonaa,
+  .odwiedziem-t-wspania,
+  .a-restaurant-with,
+  .they-known-for,
+  .pasja-ktr-poczujesz {
+    font-size: 13px;
+    line-height: 20px;
+  }
+  .menu,
+  .sprbuj-naszych-specjalnych,
+  .przystawkii,
+  .tost-z-mozzarel,
+  .z,
+  .z3,
+  .ledzik,
+  .tatar-woowy,
+  .z4,
+  .barszcz-biay,
+  .z7,
+  .z8,
+  .z9,
+  .z10,
+  .z11,
+  .rezerwacja3,
+  .zarezerwuj-stolik,
+  .wywietl-menu,
+  .rezerwacja,
+  .rezerwacja2 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .menu2,
+  .popularne-dania {
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .image-icon5,
+  .image-icon4,
+  .image-icon6,
+  .image-icon7,
+  .image-icon11,
+  .image-icon14 {
+    max-height: none;
+  }
+  .view-all-dishes-link {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .frame,
+  .frame2,
+  .frame13,
+  .rectangle-parent2 {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .reservation-container {
+    padding: 16px 0;
+  }
+  .website-footer {
+    padding: 16px 12px;
+  }
+}
+
