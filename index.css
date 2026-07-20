@@ -415,6 +415,8 @@
 .frame3 {
   align-self: stretch;
   display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
   align-items: flex-start;
   padding: 100.3px var(--padding-40) 59.7px;
   box-sizing: border-box;

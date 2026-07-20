@@ -2,13 +2,18 @@
   "author": "",
   "description": "",
   "devDependencies": {
-    "parcel": "^2.7.0"
+    "parcel": "^2.7.0",
+    "parcel-reporter-static-files-copy": "^1.5.3"
   },
   "license": "ISC",
   "name": "untitled",
   "scripts": {
     "start": "parcel ./*.html ",
     "build": "parcel build ./*.html  --dist-dir ./build"
+  },
+  "staticFiles": {
+  "staticPath": "static",
+  "watcherGlob": "**"
   },
   "version": "1.0.0"
 }

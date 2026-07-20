@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Josefin Sans:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cormorant Infant:wght@400&display=swap"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index2.css" />
+  </head>
+  <body>
+
+    <main>
+      <section class="reviews__section">
+        <div class="reviews__inner">
+          <h2 class="reviews__eyebrow">Recenzje</h2>
+          <h3 class="reviews__heading">nasi klienci mówią</h3>
+          <p class="reviews__lead">
+            Zawsze chętnie słuchamy opinii klientów, dlatego prosimy o
+            pozostawienie komentarza lub przywitanie się z nami za
+            pośrednictwem poczty e-mail.
+          </p>
+      
+          <div class="swiper reviews__swiper">
+            <div class="swiper-wrapper" id="reviewsWrapper">
+              <!-- слайди генеруються JS з reviews.json -->
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+      
+          <p class="reviews__empty is-hidden" id="reviewsEmpty">
+            Recenzje chwilowo niedostępne.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script type="module" src="./slider.js"></script>
+  </body>
+
+
+</html>
