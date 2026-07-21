@@ -5532,6 +5532,206 @@ a:focus-visible {
 
 /* Стилі Замовника КІНЕЦЬ */
 
+/* Шорт Меню / Закуски */
+
+.short-menu {
+  padding: clamp(50px, 7vw, 100px) 0px;
+  background-color: var(--color-white);
+}
+
+.short-menu__inner {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.short-menu__content {
+  max-width: 40%;
+}
+
+.short-menu__category {
+  max-width: 60%;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  gap: 20px;
+}
+
+.short-menu__title {
+  letter-spacing: var(--ls-3);
+  line-height: var(--lh-22_5);
+  text-transform: uppercase;
+  font-size: var(--fs-36);
+  color: var(--color-darkslategray-300);
+  font-family: var(--font-josefin-sans);
+  font-weight: 400;
+  display: inline-block;
+  padding: 10px 0;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.short-menu__title::before,
+.short-menu__title::after {
+  position: absolute;
+  content: '';
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: var(--color-burlywood);
+}
+
+.short-menu__title::before {
+  top: -10px;
+}
+
+.short-menu__title::after {
+  bottom: 0;
+}
+
+.short-menu__promo-title {
+  letter-spacing: var(--ls-0_2);
+  line-height: var(--lh-56);
+  text-transform: capitalize;
+  font-size: var(--fs-40);
+  font-family: var(--font-cormorant-infant);
+  font-weight: 400;
+  color: var(--color-darkslategray-300);
+  margin-bottom: 20px;
+}
+
+.short-menu__decr {
+  letter-spacing: var(--ls-0_2);
+  line-height: var(--lh-30);
+  font-family: var(--font-josefin-sans);
+  font-size: var(--fs-20);
+  color: var(--color-dimgray-200);
+  margin-bottom: 50px;
+}
+
+.short-menu__img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.short-menu__block-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 360px;
+  margin: 20px auto 0 auto;
+  gap: 10px;
+}
+
+.short-menu__link {
+  border: var(--border-1);
+  padding: var(--padding-17) var(--padding-5);
+  max-width: 360px;
+  text-align: center;
+  font-size: var(--fs-22);
+  color: var(--color-burlywood);
+  font-family: var(--font-josefin-sans);
+  font-weight: 400;
+  letter-spacing: var(--ls-0_2);
+  line-height: var(--lh-33);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 255px;
+  width: 100%;
+  padding: 20px 15px;
+  transition: all .3s;
+}
+
+.short-menu__link:hover {
+  background-color: var(--color-burlywood);
+  color: var(--color-black);
+}
+
+.short-menu__link:active {
+  opacity: 0.7;
+}
+
+/* Price Menu */
+.menu-category {
+  margin-bottom: 30px;
+}
+
+.menu-category:last-child {
+  margin-bottom: 0;
+}
+
+.menu-category__title {
+  font-family: var(--font-cormorant-infant);
+  font-weight: 400;
+  font-size: var(--fs-36);
+  letter-spacing: var(--ls-0_2);
+  line-height: 50.4px;
+  margin: 0 0 20px;
+  color: var(--color-darkslategray-300);
+  text-transform: uppercase;
+}
+
+.menu-category__item {
+  margin-bottom: 28px;
+  padding-left: 10px;
+}
+
+.menu-category__item:last-child {
+  margin-bottom: 0;
+}
+
+.menu-category__item-row {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+}
+
+.menu-category__item-name {
+  font-size: var(--fs-30);
+  letter-spacing: var(--ls-0_2);
+  line-height: var(--lh-42);
+  color: var(--color-darkslategray-300);
+  margin: 0;
+  font-family: var(--font-cormorant-infant);
+  font-weight: 400;
+  flex: 0 0 auto;
+  white-space: nowrap;
+}
+
+/* Резинова лінія замість фіксованого .rectangle-container */
+.menu-category__item-line {
+  flex: 1 1 auto;
+  min-width: 16px;
+  border-bottom: 1px solid var(--color-slategray);
+  transform: translateY(-6px);
+  /* піднімаємо лінію до рівня тексту, а не низу рядка */
+}
+
+.menu-category__item-price {
+  letter-spacing: var(--ls-0_2);
+  line-height: var(--lh-42);
+  font-size: var(--fs-30);
+  font-family: var(--font-cormorant-infant);
+  font-weight: 400;
+  color: var(--color-black);
+  flex: 0 0 auto;
+  white-space: nowrap;
+}
+
+.menu-category__item-decr {
+  font-size: var(--fs-20);
+  letter-spacing: var(--ls-0_2);
+  line-height: var(--lh-30);
+  margin: 6px 0 0;
+  font-family: var(--font-josefin-sans);
+  font-weight: 400;
+  flex: 1 0;
+  max-width: 100%;
+  color: var(--color-dimgray-200);
+}
 
 /* reviews NEW */
 
@@ -5946,6 +6146,20 @@ input:-webkit-autofill {
 }
 
 @media (max-width: 992px) {
+  .short-menu__inner {
+    flex-direction: column-reverse;
+  }
+
+  .short-menu__category,
+  .short-menu__content {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .short-menu__img {
+    display: none;
+  }
+
   .review__card {
     padding: 22px;
   }
@@ -5970,10 +6184,37 @@ input:-webkit-autofill {
 }
 
 @media (max-width: 576px) {
+  .menu-category__item {
+    padding: 0;
+  }
+
+  .menu-category__item-row {
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    gap: 6px;
+  }
+
+  .menu-category__item-price {
+    order: -1;
+  }
+
+  .menu-category__item-line {
+    display: none;
+  }
+
+  .menu-category__item-name {
+    display: block;
+    flex: auto;
+    width: 100%;
+    padding-bottom: 6px;
+    border-bottom: 1px solid var(--color-slategray);
+    white-space: normal;
+  }
+
   .review__card {
     padding: 12px;
   }
-  
+
   .reservation-row--three {
     flex-direction: column;
   }
@@ -5985,7 +6226,7 @@ input:-webkit-autofill {
 }
 
 .hero-section {
-  background-color: var(--color-snow);
+  background-color: var(--color-darkslategray-300);
 }
 
 .hero-section__intro {
@@ -5996,11 +6237,11 @@ input:-webkit-autofill {
 .hero-section__intro-inner {
   width: 100%;
   max-width: var(--width-1440);
-  min-height: 810px;
+  min-height: 780px;
   margin: 0 auto;
-  padding: 10px 10px 0 40px;
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 702px;
+  grid-template-columns: minmax(0, 1fr) 660px;
+  column-gap: 36px;
   align-items: end;
   box-sizing: border-box;
 }
@@ -6100,15 +6341,17 @@ input:-webkit-autofill {
 .hero-section__showcase {
   --showcase-side: 30px;
   --showcase-top: 30px;
-  --showcase-frame-height: 770px;
-  --showcase-image-height: 740px;
+  --showcase-frame-height: 720px;
+  --showcase-image-height: 692px;
 
   width: 100%;
+  max-width: 660px;
   height: calc(var(--showcase-top) + var(--showcase-frame-height));
   margin: 0;
   display: grid;
   grid-template-columns: var(--showcase-side) minmax(0, 1fr) var(--showcase-side);
   align-items: end;
+  justify-self: end;
 }
 
 .hero-section__showcase-side,
@@ -6148,13 +6391,13 @@ input:-webkit-autofill {
 
 .restaurant-summary {
   background-color: var(--color-snow);
+  padding: 50px 0;
 }
 
 .restaurant-summary__inner {
   width: 100%;
   max-width: var(--width-1440);
   margin: 0 auto;
-  padding: 100px 40px 60px;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -6247,7 +6490,6 @@ input:-webkit-autofill {
 }
 
 .hero-philosophy {
-  padding: 12px 40px 31px;
   background-color: var(--color-snow);
 }
 
@@ -6258,7 +6500,7 @@ input:-webkit-autofill {
   display: grid;
   grid-template-columns: minmax(0, 1fr) 559px;
   gap: 45px;
-  align-items: start;
+  align-items: center;
 }
 
 .hero-philosophy__image {
@@ -6269,7 +6511,6 @@ input:-webkit-autofill {
 }
 
 .hero-philosophy__content {
-  padding-top: 38px;
   color: var(--color-darkslategray-300);
 }
 
@@ -6298,11 +6539,8 @@ input:-webkit-autofill {
 
 @media (max-width: 1275px) {
   .hero-section__intro-inner {
-    grid-template-columns: minmax(0, 1fr) minmax(520px, 1fr);
-  }
-
-  .restaurant-summary__inner {
-    flex-wrap: wrap;
+    grid-template-columns: minmax(0, 1fr) minmax(500px, 1fr);
+    column-gap: 30px;
   }
 
   .hero-philosophy__inner {
@@ -6311,30 +6549,6 @@ input:-webkit-autofill {
 }
 
 @media (max-width: 1100px) {
-  .hero-section__intro-inner {
-    min-height: 730px;
-    grid-template-columns: minmax(0, 1fr) minmax(450px, 1fr);
-  }
-
-  .hero-section__content {
-    padding-bottom: 120px;
-  }
-
-  .hero-section__title {
-    max-width: 420px;
-    font-size: 82px;
-    line-height: 92px;
-  }
-
-  .hero-section__showcase {
-    --showcase-side: 24px;
-    --showcase-top: 24px;
-    --showcase-frame-height: 676px;
-    --showcase-image-height: 650px;
-  }
-}
-
-@media (max-width: 992px) {
   .hero-section__intro-inner {
     min-height: 0;
     padding: 72px 20px 0;
@@ -6354,12 +6568,12 @@ input:-webkit-autofill {
   }
 
   .hero-section__showcase {
-    max-width: 650px;
+    max-width: 610px;
     justify-self: center;
   }
 
   .restaurant-summary__inner {
-    padding: 72px 20px 48px;
+    flex-wrap: wrap;
   }
 
   .restaurant-summary__item,
@@ -6367,10 +6581,6 @@ input:-webkit-autofill {
   .restaurant-summary__item--reservation {
     width: calc(50% - 15px);
     padding-right: 0;
-  }
-
-  .hero-philosophy {
-    padding: 0 20px 48px;
   }
 
   .hero-philosophy__inner {
@@ -6382,8 +6592,18 @@ input:-webkit-autofill {
     height: 520px;
   }
 
-  .hero-philosophy__content {
-    padding-top: 0;
+  .hero-section__title {
+    max-width: 420px;
+    font-size: 82px;
+    line-height: 92px;
+  }
+
+  .hero-section__showcase {
+    --showcase-side: 24px;
+    --showcase-top: 24px;
+    --showcase-frame-height: 636px;
+    --showcase-image-height: 612px;
+    max-width: 600px;
   }
 }
 
@@ -6416,12 +6636,9 @@ input:-webkit-autofill {
   .hero-section__showcase {
     --showcase-side: 18px;
     --showcase-top: 18px;
-    --showcase-frame-height: 560px;
-    --showcase-image-height: 540px;
-  }
-
-  .restaurant-summary__inner {
-    padding-top: 56px;
+    --showcase-frame-height: 530px;
+    --showcase-image-height: 510px;
+    max-width: 560px;
   }
 
   .restaurant-summary__item,
@@ -6458,13 +6675,6 @@ input:-webkit-autofill {
 
 @media (max-width: 520px) {
 
-  .hero-section__intro-inner,
-  .restaurant-summary__inner,
-  .hero-philosophy {
-    padding-right: 16px;
-    padding-left: 16px;
-  }
-
   .hero-section__title {
     font-size: 42px;
     line-height: 52px;
@@ -6482,8 +6692,8 @@ input:-webkit-autofill {
   .hero-section__showcase {
     --showcase-side: 14px;
     --showcase-top: 18px;
-    --showcase-frame-height: 430px;
-    --showcase-image-height: 412px;
+    --showcase-frame-height: 410px;
+    --showcase-image-height: 392px;
   }
 
   .restaurant-summary__item {
@@ -6513,7 +6723,11 @@ input:-webkit-autofill {
 
 @media (max-width: 380px) {
   .hero-section__showcase {
-    --showcase-frame-height: 360px;
-    --showcase-image-height: 342px;
+    --showcase-frame-height: 345px;
+    --showcase-image-height: 330px;
+  }
+
+  .menu-category__item-row {
+    flex-direction: column;
   }
 }
