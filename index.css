@@ -5642,6 +5642,14 @@ a:focus-visible {
   max-width: 255px;
   width: 100%;
   padding: 20px 15px;
+  transition: all .3s;
+}
+.short-menu__link:hover {
+  background-color: var(--color-burlywood);
+  color: var(--color-black);
+}
+.short-menu__link:active {
+  opacity: 0.7;
 }
 
 /* Price Menu */
