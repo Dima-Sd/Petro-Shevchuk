@@ -68,6 +68,8 @@ body {
   /* Font */
   --font-cormorant-infant: Cormorant Infant, Arial, sans-serif;
   --font-josefin-sans: Josefin Sans, Arial, sans-serif;
+  --font-display: var(--font-cormorant-infant);
+  --font-body: var(--font-josefin-sans);
 
   /* FontSize */
   --fs-15: 15px;

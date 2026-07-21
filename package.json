@@ -9,7 +9,7 @@
   "name": "untitled",
   "scripts": {
     "start": "parcel ./*.html ",
-    "build": "parcel build ./*.html  --dist-dir ./build"
+    "build": "parcel build ./*.html --dist-dir ./build --public-url ./ --no-cache"
   },
   "staticFiles": {
   "staticPath": "static",

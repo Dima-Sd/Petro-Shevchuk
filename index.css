@@ -131,7 +131,7 @@ a:focus-visible {
   flex: 0 0 auto;
 }
 
-.site-header__bar + .site-header__divider {
+.site-header__bar+.site-header__divider {
   margin-top: 34px;
 }
 
@@ -173,7 +173,7 @@ a:focus-visible {
     line-height: var(--lh-24);
   }
 
-  .site-header__bar + .site-header__divider {
+  .site-header__bar+.site-header__divider {
     margin-top: 24px;
   }
 }
@@ -5976,5 +5976,544 @@ input:-webkit-autofill {
   
   .reservation-row--three {
     flex-direction: column;
+  }
+}
+
+/* Hero */
+.main {
+  background-color: var(--color-snow);
+}
+
+.hero-section {
+  background-color: var(--color-snow);
+}
+
+.hero-section__intro {
+  color: var(--color-white);
+  background-color: var(--color-darkslategray-300);
+}
+
+.hero-section__intro-inner {
+  width: 100%;
+  max-width: var(--width-1440);
+  min-height: 810px;
+  margin: 0 auto;
+  padding: 10px 10px 0 40px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 702px;
+  align-items: end;
+  box-sizing: border-box;
+}
+
+.hero-section__content {
+  width: 100%;
+  max-width: 636px;
+  padding: 0 20px 153px 0;
+  box-sizing: border-box;
+}
+
+.hero-section__text {
+  display: flex;
+  flex-direction: column;
+  gap: 41px;
+}
+
+.hero-section__title {
+  max-width: 470px;
+  margin: 0;
+  color: inherit;
+  font-family: var(--font-cormorant-infant);
+  font-size: 100px;
+  font-weight: 400;
+  line-height: 110px;
+  letter-spacing: var(--ls-0_2);
+}
+
+.hero-section__lead {
+  max-width: 620px;
+  margin: 0;
+  color: inherit;
+  font-family: var(--font-josefin-sans);
+  font-size: var(--fs-20);
+  line-height: var(--lh-30);
+  letter-spacing: var(--ls-0_2);
+}
+
+.hero-section__actions {
+  margin-top: 53px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.hero-section__menu-link {
+  width: 230px;
+  min-height: 73px;
+  padding: 17px 32px;
+  border: var(--border-1);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-burlywood);
+  font-family: var(--font-josefin-sans);
+  font-size: var(--fs-22);
+  line-height: var(--lh-33);
+  letter-spacing: var(--ls-0_2);
+  text-align: center;
+  transition:
+    background-color 180ms ease,
+    border-color 180ms ease;
+}
+
+.hero-section__menu-link:hover {
+  border-color: var(--color-peru-100);
+  background-color: var(--color-peru-200);
+}
+
+.hero-section__social-list {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.hero-section__social-link {
+  min-width: 24px;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-section__social-link img {
+  width: auto;
+  max-width: none;
+  height: auto;
+}
+
+.hero-section__menu-link:focus-visible,
+.hero-section__social-link:focus-visible,
+.restaurant-summary a:focus-visible {
+  outline: 2px solid var(--color-burlywood);
+  outline-offset: 4px;
+}
+
+.hero-section__showcase {
+  --showcase-side: 30px;
+  --showcase-top: 30px;
+  --showcase-frame-height: 770px;
+  --showcase-image-height: 740px;
+
+  width: 100%;
+  height: calc(var(--showcase-top) + var(--showcase-frame-height));
+  margin: 0;
+  display: grid;
+  grid-template-columns: var(--showcase-side) minmax(0, 1fr) var(--showcase-side);
+  align-items: end;
+}
+
+.hero-section__showcase-side,
+.hero-section__showcase-top {
+  background-color: var(--color-gray-300);
+}
+
+.hero-section__showcase-side {
+  height: var(--showcase-frame-height);
+}
+
+.hero-section__showcase-main {
+  min-width: 0;
+}
+
+.hero-section__showcase-top {
+  height: var(--showcase-top);
+}
+
+.hero-section__image-frame {
+  height: var(--showcase-frame-height);
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-section__image {
+  width: 90.84%;
+  max-width: none;
+  height: var(--showcase-image-height);
+  position: absolute;
+  right: 4.58%;
+  bottom: 0;
+  left: 4.58%;
+  border-radius: 626px 626px 0 0;
+  object-fit: cover;
+}
+
+.restaurant-summary {
+  background-color: var(--color-snow);
+}
+
+.restaurant-summary__inner {
+  width: 100%;
+  max-width: var(--width-1440);
+  margin: 0 auto;
+  padding: 100px 40px 60px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 30px;
+  box-sizing: border-box;
+}
+
+.restaurant-summary__item {
+  width: 420px;
+  max-width: 100%;
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  color: var(--color-darkslategray-300);
+}
+
+.restaurant-summary__item--hours {
+  width: 420px;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.restaurant-summary__item--reservation {
+  width: 420px;
+  max-width: 100%;
+  font-family: var(--font-josefin-sans);
+}
+
+.restaurant-summary__icon {
+  width: 83px;
+  height: 83px;
+  border-radius: var(--br-100);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 83px;
+  background-color: var(--color-darkslategray-300);
+}
+
+.restaurant-summary__item--hours .restaurant-summary__icon {
+  background-color: transparent;
+}
+
+.restaurant-summary__icon img {
+  width: 52px;
+  height: 52px;
+  object-fit: contain;
+}
+
+.restaurant-summary__item--hours .restaurant-summary__icon img {
+  width: 83px;
+  height: 83px;
+}
+
+.restaurant-summary__item--reservation .restaurant-summary__icon img {
+  width: 39px;
+  height: 39px;
+}
+
+.restaurant-summary__content {
+  min-width: 0;
+  padding-top: 4px;
+}
+
+.restaurant-summary__title,
+.restaurant-summary__text {
+  margin: 0;
+  font-weight: 400;
+  letter-spacing: var(--ls-0_2);
+}
+
+.restaurant-summary__title {
+  font-family: var(--font-cormorant-infant);
+  font-size: var(--fs-30);
+  line-height: 39px;
+}
+
+.restaurant-summary__title--reservation {
+  font-family: var(--font-josefin-sans);
+  font-size: var(--fs-22);
+  line-height: var(--lh-33);
+  letter-spacing: 0.44px;
+}
+
+.restaurant-summary__text {
+  color: var(--color-dimgray-200);
+  font-family: var(--font-josefin-sans);
+  font-size: var(--fs-20);
+  line-height: var(--lh-30);
+}
+
+.hero-philosophy {
+  padding: 12px 40px 31px;
+  background-color: var(--color-snow);
+}
+
+.hero-philosophy__inner {
+  width: 100%;
+  max-width: 1360px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 559px;
+  gap: 45px;
+  align-items: start;
+}
+
+.hero-philosophy__image {
+  width: 100%;
+  height: 655px;
+  object-fit: cover;
+  object-position: center top;
+}
+
+.hero-philosophy__content {
+  padding-top: 38px;
+  color: var(--color-darkslategray-300);
+}
+
+.hero-philosophy__title {
+  max-width: 545px;
+  margin: 0 0 38px;
+  font-family: var(--font-cormorant-infant);
+  font-size: var(--fs-40);
+  font-weight: 400;
+  line-height: var(--lh-56);
+  letter-spacing: var(--ls-0_2);
+}
+
+.hero-philosophy__text {
+  margin: 0;
+  color: var(--color-dimgray-200);
+  font-family: var(--font-josefin-sans);
+  font-size: var(--fs-20);
+  line-height: var(--lh-30);
+  letter-spacing: var(--ls-0_2);
+}
+
+.hero-philosophy__text+.hero-philosophy__text {
+  margin-top: 30px;
+}
+
+@media (max-width: 1275px) {
+  .hero-section__intro-inner {
+    grid-template-columns: minmax(0, 1fr) minmax(520px, 1fr);
+  }
+
+  .restaurant-summary__inner {
+    flex-wrap: wrap;
+  }
+
+  .hero-philosophy__inner {
+    grid-template-columns: minmax(0, 1fr) minmax(420px, 559px);
+  }
+}
+
+@media (max-width: 1100px) {
+  .hero-section__intro-inner {
+    min-height: 730px;
+    grid-template-columns: minmax(0, 1fr) minmax(450px, 1fr);
+  }
+
+  .hero-section__content {
+    padding-bottom: 120px;
+  }
+
+  .hero-section__title {
+    max-width: 420px;
+    font-size: 82px;
+    line-height: 92px;
+  }
+
+  .hero-section__showcase {
+    --showcase-side: 24px;
+    --showcase-top: 24px;
+    --showcase-frame-height: 676px;
+    --showcase-image-height: 650px;
+  }
+}
+
+@media (max-width: 992px) {
+  .hero-section__intro-inner {
+    min-height: 0;
+    padding: 72px 20px 0;
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+
+  .hero-section__content {
+    max-width: 680px;
+    padding: 0;
+  }
+
+  .hero-section__title {
+    max-width: 560px;
+    font-size: 72px;
+    line-height: 82px;
+  }
+
+  .hero-section__showcase {
+    max-width: 650px;
+    justify-self: center;
+  }
+
+  .restaurant-summary__inner {
+    padding: 72px 20px 48px;
+  }
+
+  .restaurant-summary__item,
+  .restaurant-summary__item--hours,
+  .restaurant-summary__item--reservation {
+    width: calc(50% - 15px);
+    padding-right: 0;
+  }
+
+  .hero-philosophy {
+    padding: 0 20px 48px;
+  }
+
+  .hero-philosophy__inner {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .hero-philosophy__image {
+    height: 520px;
+  }
+
+  .hero-philosophy__content {
+    padding-top: 0;
+  }
+}
+
+@media (max-width: 700px) {
+  .hero-section__intro-inner {
+    padding-top: 56px;
+    gap: 36px;
+  }
+
+  .hero-section__text {
+    gap: 24px;
+  }
+
+  .hero-section__title {
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+  .hero-section__lead,
+  .hero-philosophy__text {
+    font-size: var(--fs-18);
+    line-height: var(--lh-28);
+  }
+
+  .hero-section__actions {
+    margin-top: 36px;
+    flex-wrap: wrap;
+  }
+
+  .hero-section__showcase {
+    --showcase-side: 18px;
+    --showcase-top: 18px;
+    --showcase-frame-height: 560px;
+    --showcase-image-height: 540px;
+  }
+
+  .restaurant-summary__inner {
+    padding-top: 56px;
+  }
+
+  .restaurant-summary__item,
+  .restaurant-summary__item--hours,
+  .restaurant-summary__item--reservation {
+    width: 100%;
+  }
+
+  .restaurant-summary__title {
+    font-size: var(--fs-24);
+    line-height: 31px;
+  }
+
+  .restaurant-summary__title--reservation {
+    font-size: var(--fs-22);
+    line-height: var(--lh-33);
+  }
+
+  .restaurant-summary__text {
+    font-size: var(--fs-18);
+    line-height: var(--lh-28);
+  }
+
+  .hero-philosophy__image {
+    height: 420px;
+  }
+
+  .hero-philosophy__title {
+    margin-bottom: 24px;
+    font-size: var(--fs-32);
+    line-height: var(--lh-45);
+  }
+}
+
+@media (max-width: 520px) {
+
+  .hero-section__intro-inner,
+  .restaurant-summary__inner,
+  .hero-philosophy {
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+
+  .hero-section__title {
+    font-size: 42px;
+    line-height: 52px;
+  }
+
+  .hero-section__menu-link {
+    width: 100%;
+  }
+
+  .hero-section__social-list {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .hero-section__showcase {
+    --showcase-side: 14px;
+    --showcase-top: 18px;
+    --showcase-frame-height: 430px;
+    --showcase-image-height: 412px;
+  }
+
+  .restaurant-summary__item {
+    gap: 16px;
+  }
+
+  .restaurant-summary__icon {
+    width: 72px;
+    height: 72px;
+    flex-basis: 72px;
+  }
+
+  .restaurant-summary__icon img {
+    width: 44px;
+    height: 44px;
+  }
+
+  .restaurant-summary__item--hours .restaurant-summary__icon img {
+    width: 72px;
+    height: 72px;
+  }
+
+  .hero-philosophy__image {
+    height: 340px;
+  }
+}
+
+@media (max-width: 380px) {
+  .hero-section__showcase {
+    --showcase-frame-height: 360px;
+    --showcase-image-height: 342px;
   }
 }
