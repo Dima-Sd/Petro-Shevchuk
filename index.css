@@ -131,7 +131,7 @@ a:focus-visible {
   flex: 0 0 auto;
 }
 
-.site-header__bar + .site-header__divider {
+.site-header__bar+.site-header__divider {
   margin-top: 34px;
 }
 
@@ -173,7 +173,7 @@ a:focus-visible {
     line-height: var(--lh-24);
   }
 
-  .site-header__bar + .site-header__divider {
+  .site-header__bar+.site-header__divider {
     margin-top: 24px;
   }
 }
@@ -6049,7 +6049,8 @@ a:focus-visible {
 }
 
 .restaurant-summary__item {
-  width: 428px;
+  width: 420px;
+  max-width: 100%;
   display: flex;
   align-items: flex-start;
   gap: 20px;
@@ -6057,13 +6058,14 @@ a:focus-visible {
 }
 
 .restaurant-summary__item--hours {
-  width: 429px;
-  padding-right: 41px;
+  width: 420px;
+  max-width: 100%;
   box-sizing: border-box;
 }
 
 .restaurant-summary__item--reservation {
-  width: 351px;
+  width: 420px;
+  max-width: 100%;
   font-family: var(--font-josefin-sans);
 }
 
@@ -6149,6 +6151,7 @@ a:focus-visible {
   width: 100%;
   height: 655px;
   object-fit: cover;
+  object-position: center top;
 }
 
 .hero-philosophy__content {
@@ -6175,7 +6178,7 @@ a:focus-visible {
   letter-spacing: var(--ls-0_2);
 }
 
-.hero-philosophy__text + .hero-philosophy__text {
+.hero-philosophy__text+.hero-philosophy__text {
   margin-top: 30px;
 }
 
@@ -6340,6 +6343,7 @@ a:focus-visible {
 }
 
 @media (max-width: 520px) {
+
   .hero-section__intro-inner,
   .restaurant-summary__inner,
   .hero-philosophy {
