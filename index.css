@@ -3360,14 +3360,12 @@ a:focus-visible {
 .rectangle53,
 .uslugi {
   background-color: var(--color-darkslategray-300);
-  max-width: 100%;
 }
 
 .uslugi {
-  align-self: stretch;
   display: flex;
-  align-items: flex-start;
-  padding: 129px var(--padding-40) 140px;
+  flex-wrap: wrap;
+  padding: 129px 0;
   box-sizing: border-box;
   gap: 100px;
   text-align: left;
@@ -3385,13 +3383,12 @@ a:focus-visible {
 }
 
 .services-intro-header {
-  width: 438px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: var(--gap-11);
-  max-width: 100%;
   flex-shrink: 0;
+  margin-bottom: 40px;
 }
 
 .service-header-decoration {
@@ -3412,7 +3409,7 @@ a:focus-visible {
 }
 
 .what-we-offer-parent {
-  width: 327px;
+  width: 245px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -3468,15 +3465,8 @@ a:focus-visible {
 }
 
 .service-features-grid {
-  flex: 1;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: var(--padding-11) var(--padding-0) var(--padding-0);
-  box-sizing: border-box;
-  min-width: 534px;
-  max-width: 100%;
-  flex-shrink: 0;
+  gap: 30px;
   text-align: center;
   font-size: var(--fs-25);
   color: var(--color-white);
@@ -3484,9 +3474,7 @@ a:focus-visible {
 }
 
 .service-items-collection-parent {
-  align-self: stretch;
   display: flex;
-  align-items: flex-start;
   gap: var(--gap-30);
 }
 
@@ -3497,15 +3485,15 @@ a:focus-visible {
 }
 
 .service-items-collection {
-  flex: 1;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
-  padding: 44px 43px var(--padding-4) 42px;
+  justify-content: center;
+  align-items: center;
   gap: var(--gap-15);
-  min-width: 190px;
-  min-height: 235px;
-  z-index: 1;
+  max-width: 360px;
+  width: 100%;
+  height: 225px;
+  padding: 20px;
 }
 
 .rectangle56 {
@@ -3542,23 +3530,6 @@ a:focus-visible {
   flex-shrink: 0;
 }
 
-.image-frame,
-.service-items-collection2 {
-  display: flex;
-  align-items: flex-start;
-  box-sizing: border-box;
-}
-
-.service-items-collection2 {
-  flex: 1.2015;
-  border: var(--border-2);
-  flex-direction: column;
-  padding: 44px 25px var(--padding-4) var(--padding-34);
-  gap: var(--gap-15);
-  min-width: 190px;
-  min-height: 235px;
-  z-index: 1;
-}
 
 .image-frame {
   width: 155px;
@@ -3576,19 +3547,6 @@ a:focus-visible {
   flex-shrink: 0;
 }
 
-.service-items-collection3 {
-  flex: 1.186;
-  border: var(--border-2);
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 44px 30px 39px 31px;
-  gap: var(--gap-15);
-  min-width: 190px;
-  min-height: 235px;
-  z-index: 1;
-}
 
 .image-wrapper2 {
   display: flex;
@@ -4342,6 +4300,13 @@ a:focus-visible {
   }
 }
 
+@media(max-width: 992px) {
+  .service-features-grid {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
 @media screen and (max-width: 750px) {
   .main-content {
     padding-bottom: 445px;
@@ -4661,28 +4626,14 @@ a:focus-visible {
     min-width: 100%;
   }
 
-  .co-oferujemy {
-    font-size: var(--fs-29);
-    line-height: var(--lh-18);
-  }
 
   .nasze-doskonae-usugi {
     font-size: var(--fs-32);
     line-height: var(--lh-45);
   }
 
-  .service-features-grid {
-    min-width: 100%;
-  }
-
   .service-items-collection-parent {
     flex-wrap: wrap;
-  }
-
-  .service-items-collection,
-  .service-items-collection2,
-  .service-items-collection3 {
-    min-height: auto;
   }
 
   .rezerwacja3 {
@@ -5123,11 +5074,14 @@ a:focus-visible {
 
   .uslugi {
     gap: 25px;
+    padding: 50px 0;
   }
 
   .co-oferujemy {
     font-size: var(--fs-22);
     line-height: var(--lh-13);
+    bottom: 7px;
+    right: -40px;
   }
 
   .nasze-doskonae-usugi {
@@ -5221,7 +5175,6 @@ a:focus-visible {
     width: 100%;
     max-width: 100%;
     margin: 0 auto;
-    padding: 0 16px;
     box-sizing: border-box;
   }
 
@@ -5274,7 +5227,6 @@ a:focus-visible {
   .philosophy-statement-wrapper,
   .menu-item-list,
   .menu-item-grid,
-  .service-items-collection,
   .frame,
   .frame2,
   .frame13,
@@ -5421,17 +5373,6 @@ a:focus-visible {
 }
 
 @media screen and (max-width: 500px) {
-
-  .main-content,
-  .about,
-  .menu-wrapper,
-  .menu-items-continued,
-  .coment,
-  .image-parent,
-  .uslugi,
-  .website-footer {
-    padding: 0 12px;
-  }
 
   .contact-info,
   .frame3,
