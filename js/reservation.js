@@ -173,25 +173,29 @@ function initReservationForm() {
   
     sendBtn.disabled = true;
     formStatus.textContent = "Wysyłanie...";
-  
-      try {
-        const response = await fetch("./php/mail.php", { method: "POST", body: formData });
-        const result = await response.json();
-  
-        formStatus.textContent = "";
-  
-        if (result.status === "success") {
-          showSuccessMessage();
-          form.reset();
-        } else {
-          formStatus.textContent = result.message || "Wystąpił błąd. Spróbuj ponownie.";
-        }
-      } catch (error) {
-        console.error("Błąd sieci lub serwera:", error);
-        formStatus.textContent = "Błąd połączenia z serwerem. Spróbuj ponownie.";
-      } finally {
-        sendBtn.disabled = false;
+    formStatus.className = "reservation-status reservation-status--sending";
+
+    try {
+      const response = await fetch("./php/mail.php", { method: "POST", body: formData });
+      const result = await response.json();
+
+      formStatus.textContent = "";
+      formStatus.className = "reservation-status";
+
+      if (result.status === "success") {
+        showSuccessMessage();
+        form.reset();
+      } else {
+        formStatus.textContent = result.message || "Wystąpił błąd. Spróbuj ponownie.";
+        formStatus.className = "reservation-status reservation-status--error";
       }
+    } catch (error) {
+      console.error("Błąd sieci lub serwera:", error);
+      formStatus.textContent = "Błąd połączenia z serwerem. Spróbuj ponownie.";
+      formStatus.className = "reservation-status reservation-status--error";
+    } finally {
+      sendBtn.disabled = false;
+}
   });
   
   /* === Попап успіху === */

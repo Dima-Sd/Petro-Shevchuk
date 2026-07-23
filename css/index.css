@@ -1065,6 +1065,14 @@ input:-webkit-autofill {
   color: red;
   text-align: center;
 }
+.reservation-status--sending {
+  color: #4caf50;
+  /* зелёный */
+}
+.reservation-status--error {
+  color: #ff6b6b;
+  /* тот же красный, что и у .error-message */
+}
 
 .main {
   background-color: var(--color-snow);
