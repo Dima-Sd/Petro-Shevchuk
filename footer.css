@@ -7,7 +7,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 20px;
+  gap: 80px;
 }
 
 .footer__contact-block {
@@ -37,15 +37,19 @@
   height: 1px;
   background-color: var(--color-burlywood);
 }
+
 .footer__contact-title::before {
   top: 0;
 }
+
 .footer__contact-title::after {
   bottom: 0;
 }
+
 .footer__adress-block {
   margin-bottom: 10px;
 }
+
 .footer__address {
   font-size: var(--fs-20);
   letter-spacing: var(--ls-0_2);
@@ -54,7 +58,7 @@
   font-weight: 400;
   color: var(--color-white);
   margin-bottom: 5px;
-  
+
 }
 
 .footer__phone {
@@ -87,7 +91,7 @@
 }
 
 .footer__schedule-block {
-  max-width: 300px;
+  max-width: 214px;
   width: 100%;
 }
 
@@ -103,6 +107,7 @@
   padding: 10px 0 5px;
   position: relative;
 }
+
 .footer__schedule-title::before,
 .footer__schedule-title::after {
   position: absolute;
@@ -123,7 +128,7 @@
 
 .footer__schedule {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   gap: 10px;
 }
@@ -150,11 +155,9 @@
   .footer__inner {
     flex-wrap: wrap;
   }
-  .footer__schedule-title {
-    margin: 0 0 20px 0;
-  }
-  .footer__schedule {
-   justify-content: flex-start;
+
+  .footer__schedule-block {
+    margin: 0 auto;
   }
 }
 
@@ -163,11 +166,18 @@
     width: 180px;
     aspect-ratio: 180 / 180;
   }
+
+  .footer__inner {
+    gap: 80px 25px;
+  }
 }
+
 @media (max-width: 576px) {
   .footer__inner {
     flex-direction: column;
+    gap: 45px;
   }
+
   .footer__contact-block,
   .footer__schedule-block,
   .footer__contact-block {
@@ -176,15 +186,19 @@
     align-items: center;
     text-align: center;
   }
+
   .footer__logo {
     order: 1;
   }
+
   .footer__schedule-block {
     order: 2;
   }
+
   .footer__contact-block {
     order: 3;
   }
+
   .footer__social-block {
     margin-left: -25px;
   }
