@@ -3530,13 +3530,6 @@ a:focus-visible {
   flex-shrink: 0;
 }
 
-
-.image-frame {
-  width: 155px;
-  padding: var(--padding-0) 43px;
-  flex-shrink: 0;
-}
-
 .menu-specjalne {
   height: var(--height-70);
   position: relative;
@@ -4660,6 +4653,17 @@ a:focus-visible {
 }
 
 @media screen and (max-width: 450px) {
+
+  .image-icon11 {
+    width: 50px;
+    height: 50px;
+  }
+
+  .service-items-collection {
+    max-width: 300px;
+    height: 200px;
+  }
+
   .footer {
     gap: var(--gap-20);
     padding-top: var(--padding-20);
@@ -5094,10 +5098,6 @@ a:focus-visible {
     line-height: var(--lh-24);
   }
 
-  .service-items-collection {
-    flex: 1;
-  }
-
   .menu-specjalne,
   .pon-niedz-1100-2200 {
     font-size: var(--fs-20);
@@ -5266,7 +5266,6 @@ a:focus-visible {
   .image-icon5,
   .image-icon6,
   .image-icon7,
-  .image-icon11,
   .image-icon14 {
     width: 100%;
     max-width: 100%;
